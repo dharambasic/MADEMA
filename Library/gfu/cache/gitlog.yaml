@@ -13,9 +13,2411 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-05-04T09:19:56.719+02:00
-  initializedAtString: 2020-05-04T08:28:13.047+02:00
+  lastUpdatedAtString: 2020-05-11T13:49:12.836+02:00
+  initializedAtString: 2020-05-11T13:49:12.547+02:00
   log:
+  - commitID: 69c756e4851e17548362aef43d922f31d8e0063b
+    mergeA: 
+    mergeB: 
+    authorName: Denis Harambasic
+    authorEmail: harambasicdenis@gmail.com
+    commitEmail: harambasicdenis@gmail.com
+    commitName: Denis Harambasic
+    summary: v1
+    description: s
+    timeString: 2020-05-11T13:49:10.000+02:00
+    commitTimeString: 2020-05-11T13:49:10.000+02:00
+    changes:
+    - path: Assets\Models.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models.meta"
+      projectPath: Assets\Models.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format.meta"
+      projectPath: Assets\Models\DAE format.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\ball_blue.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\ball_blue.dae"
+      projectPath: Assets\Models\DAE format\ball_blue.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\ball_blue.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\ball_blue.dae.meta"
+      projectPath: Assets\Models\DAE format\ball_blue.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\ball_green.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\ball_green.dae"
+      projectPath: Assets\Models\DAE format\ball_green.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\ball_green.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\ball_green.dae.meta"
+      projectPath: Assets\Models\DAE format\ball_green.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\ball_red.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\ball_red.dae"
+      projectPath: Assets\Models\DAE format\ball_red.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\ball_red.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\ball_red.dae.meta"
+      projectPath: Assets\Models\DAE format\ball_red.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\block.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\block.dae"
+      projectPath: Assets\Models\DAE format\block.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\block.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\block.dae.meta"
+      projectPath: Assets\Models\DAE format\block.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\bump.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\bump.dae"
+      projectPath: Assets\Models\DAE format\bump.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\bump.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\bump.dae.meta"
+      projectPath: Assets\Models\DAE format\bump.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\bumpDown.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\bumpDown.dae"
+      projectPath: Assets\Models\DAE format\bumpDown.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\bumpDown.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\bumpDown.dae.meta"
+      projectPath: Assets\Models\DAE format\bumpDown.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\bumpDownWalls.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\bumpDownWalls.dae"
+      projectPath: Assets\Models\DAE format\bumpDownWalls.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\bumpDownWalls.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\bumpDownWalls.dae.meta"
+      projectPath: Assets\Models\DAE format\bumpDownWalls.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\bumpWalls.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\bumpWalls.dae"
+      projectPath: Assets\Models\DAE format\bumpWalls.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\bumpWalls.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\bumpWalls.dae.meta"
+      projectPath: Assets\Models\DAE format\bumpWalls.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\castle.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\castle.dae"
+      projectPath: Assets\Models\DAE format\castle.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\castle.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\castle.dae.meta"
+      projectPath: Assets\Models\DAE format\castle.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\club_blue.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\club_blue.dae"
+      projectPath: Assets\Models\DAE format\club_blue.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\club_blue.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\club_blue.dae.meta"
+      projectPath: Assets\Models\DAE format\club_blue.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\club_green.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\club_green.dae"
+      projectPath: Assets\Models\DAE format\club_green.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\club_green.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\club_green.dae.meta"
+      projectPath: Assets\Models\DAE format\club_green.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\club_red.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\club_red.dae"
+      projectPath: Assets\Models\DAE format\club_red.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\club_red.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\club_red.dae.meta"
+      projectPath: Assets\Models\DAE format\club_red.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\corner.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\corner.dae"
+      projectPath: Assets\Models\DAE format\corner.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\corner.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\corner.dae.meta"
+      projectPath: Assets\Models\DAE format\corner.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\crest.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\crest.dae"
+      projectPath: Assets\Models\DAE format\crest.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\crest.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\crest.dae.meta"
+      projectPath: Assets\Models\DAE format\crest.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\end.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\end.dae"
+      projectPath: Assets\Models\DAE format\end.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\end.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\end.dae.meta"
+      projectPath: Assets\Models\DAE format\end.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\flag_blue.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\flag_blue.dae"
+      projectPath: Assets\Models\DAE format\flag_blue.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\flag_blue.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\flag_blue.dae.meta"
+      projectPath: Assets\Models\DAE format\flag_blue.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\flag_green.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\flag_green.dae"
+      projectPath: Assets\Models\DAE format\flag_green.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\flag_green.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\flag_green.dae.meta"
+      projectPath: Assets\Models\DAE format\flag_green.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\flag_red.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\flag_red.dae"
+      projectPath: Assets\Models\DAE format\flag_red.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\flag_red.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\flag_red.dae.meta"
+      projectPath: Assets\Models\DAE format\flag_red.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\gap.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\gap.dae"
+      projectPath: Assets\Models\DAE format\gap.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\gap.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\gap.dae.meta"
+      projectPath: Assets\Models\DAE format\gap.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\hillCorner.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\hillCorner.dae"
+      projectPath: Assets\Models\DAE format\hillCorner.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\hillCorner.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\hillCorner.dae.meta"
+      projectPath: Assets\Models\DAE format\hillCorner.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\hillRound.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\hillRound.dae"
+      projectPath: Assets\Models\DAE format\hillRound.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\hillRound.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\hillRound.dae.meta"
+      projectPath: Assets\Models\DAE format\hillRound.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\hillSquare.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\hillSquare.dae"
+      projectPath: Assets\Models\DAE format\hillSquare.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\hillSquare.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\hillSquare.dae.meta"
+      projectPath: Assets\Models\DAE format\hillSquare.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\holeOpen.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\holeOpen.dae"
+      projectPath: Assets\Models\DAE format\holeOpen.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\holeOpen.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\holeOpen.dae.meta"
+      projectPath: Assets\Models\DAE format\holeOpen.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\holeRound.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\holeRound.dae"
+      projectPath: Assets\Models\DAE format\holeRound.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\holeRound.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\holeRound.dae.meta"
+      projectPath: Assets\Models\DAE format\holeRound.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\holeSquare.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\holeSquare.dae"
+      projectPath: Assets\Models\DAE format\holeSquare.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\holeSquare.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\holeSquare.dae.meta"
+      projectPath: Assets\Models\DAE format\holeSquare.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\innerCorner.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\innerCorner.dae"
+      projectPath: Assets\Models\DAE format\innerCorner.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\innerCorner.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\innerCorner.dae.meta"
+      projectPath: Assets\Models\DAE format\innerCorner.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\narrowBlock.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\narrowBlock.dae"
+      projectPath: Assets\Models\DAE format\narrowBlock.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\narrowBlock.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\narrowBlock.dae.meta"
+      projectPath: Assets\Models\DAE format\narrowBlock.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\narrowRound.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\narrowRound.dae"
+      projectPath: Assets\Models\DAE format\narrowRound.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\narrowRound.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\narrowRound.dae.meta"
+      projectPath: Assets\Models\DAE format\narrowRound.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\narrowSquare.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\narrowSquare.dae"
+      projectPath: Assets\Models\DAE format\narrowSquare.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\narrowSquare.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\narrowSquare.dae.meta"
+      projectPath: Assets\Models\DAE format\narrowSquare.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\obstacleBlock.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\obstacleBlock.dae"
+      projectPath: Assets\Models\DAE format\obstacleBlock.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\obstacleBlock.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\obstacleBlock.dae.meta"
+      projectPath: Assets\Models\DAE format\obstacleBlock.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\obstacleDiamond.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\obstacleDiamond.dae"
+      projectPath: Assets\Models\DAE format\obstacleDiamond.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\obstacleDiamond.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\obstacleDiamond.dae.meta"
+      projectPath: Assets\Models\DAE format\obstacleDiamond.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\obstacleTriangle.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\obstacleTriangle.dae"
+      projectPath: Assets\Models\DAE format\obstacleTriangle.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\obstacleTriangle.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\obstacleTriangle.dae.meta"
+      projectPath: Assets\Models\DAE format\obstacleTriangle.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\open.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\open.dae"
+      projectPath: Assets\Models\DAE format\open.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\open.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\open.dae.meta"
+      projectPath: Assets\Models\DAE format\open.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampA.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampA.dae"
+      projectPath: Assets\Models\DAE format\rampA.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampA.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampA.dae.meta"
+      projectPath: Assets\Models\DAE format\rampA.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampB.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampB.dae"
+      projectPath: Assets\Models\DAE format\rampB.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampB.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampB.dae.meta"
+      projectPath: Assets\Models\DAE format\rampB.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampC.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampC.dae"
+      projectPath: Assets\Models\DAE format\rampC.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampC.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampC.dae.meta"
+      projectPath: Assets\Models\DAE format\rampC.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampD.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampD.dae"
+      projectPath: Assets\Models\DAE format\rampD.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampD.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampD.dae.meta"
+      projectPath: Assets\Models\DAE format\rampD.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampSharp.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampSharp.dae"
+      projectPath: Assets\Models\DAE format\rampSharp.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampSharp.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampSharp.dae.meta"
+      projectPath: Assets\Models\DAE format\rampSharp.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampSquare.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampSquare.dae"
+      projectPath: Assets\Models\DAE format\rampSquare.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\rampSquare.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\rampSquare.dae.meta"
+      projectPath: Assets\Models\DAE format\rampSquare.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\roundCornerA.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\roundCornerA.dae"
+      projectPath: Assets\Models\DAE format\roundCornerA.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\roundCornerA.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\roundCornerA.dae.meta"
+      projectPath: Assets\Models\DAE format\roundCornerA.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\roundCornerB.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\roundCornerB.dae"
+      projectPath: Assets\Models\DAE format\roundCornerB.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\roundCornerB.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\roundCornerB.dae.meta"
+      projectPath: Assets\Models\DAE format\roundCornerB.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\roundCornerC.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\roundCornerC.dae"
+      projectPath: Assets\Models\DAE format\roundCornerC.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\roundCornerC.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\roundCornerC.dae.meta"
+      projectPath: Assets\Models\DAE format\roundCornerC.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\side.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\side.dae"
+      projectPath: Assets\Models\DAE format\side.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\side.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\side.dae.meta"
+      projectPath: Assets\Models\DAE format\side.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\split.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\split.dae"
+      projectPath: Assets\Models\DAE format\split.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\split.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\split.dae.meta"
+      projectPath: Assets\Models\DAE format\split.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\splitStart.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\splitStart.dae"
+      projectPath: Assets\Models\DAE format\splitStart.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\splitStart.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\splitStart.dae.meta"
+      projectPath: Assets\Models\DAE format\splitStart.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\splitT.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\splitT.dae"
+      projectPath: Assets\Models\DAE format\splitT.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\splitT.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\splitT.dae.meta"
+      projectPath: Assets\Models\DAE format\splitT.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\splitWallsToOpen.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\splitWallsToOpen.dae"
+      projectPath: Assets\Models\DAE format\splitWallsToOpen.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\splitWallsToOpen.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\splitWallsToOpen.dae.meta"
+      projectPath: Assets\Models\DAE format\splitWallsToOpen.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\squareCornerA.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\squareCornerA.dae"
+      projectPath: Assets\Models\DAE format\squareCornerA.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\squareCornerA.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\squareCornerA.dae.meta"
+      projectPath: Assets\Models\DAE format\squareCornerA.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\start.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\start.dae"
+      projectPath: Assets\Models\DAE format\start.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\start.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\start.dae.meta"
+      projectPath: Assets\Models\DAE format\start.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\straight.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\straight.dae"
+      projectPath: Assets\Models\DAE format\straight.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\straight.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\straight.dae.meta"
+      projectPath: Assets\Models\DAE format\straight.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\tunnelDouble.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\tunnelDouble.dae"
+      projectPath: Assets\Models\DAE format\tunnelDouble.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\tunnelDouble.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\tunnelDouble.dae.meta"
+      projectPath: Assets\Models\DAE format\tunnelDouble.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\tunnelNarrow.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\tunnelNarrow.dae"
+      projectPath: Assets\Models\DAE format\tunnelNarrow.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\tunnelNarrow.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\tunnelNarrow.dae.meta"
+      projectPath: Assets\Models\DAE format\tunnelNarrow.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\tunnelWide.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\tunnelWide.dae"
+      projectPath: Assets\Models\DAE format\tunnelWide.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\tunnelWide.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\tunnelWide.dae.meta"
+      projectPath: Assets\Models\DAE format\tunnelWide.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\wallLeft.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\wallLeft.dae"
+      projectPath: Assets\Models\DAE format\wallLeft.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\wallLeft.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\wallLeft.dae.meta"
+      projectPath: Assets\Models\DAE format\wallLeft.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\wallRight.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\wallRight.dae"
+      projectPath: Assets\Models\DAE format\wallRight.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\wallRight.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\wallRight.dae.meta"
+      projectPath: Assets\Models\DAE format\wallRight.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\wallsToOpen.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\wallsToOpen.dae"
+      projectPath: Assets\Models\DAE format\wallsToOpen.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\wallsToOpen.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\wallsToOpen.dae.meta"
+      projectPath: Assets\Models\DAE format\wallsToOpen.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\windmill.dae
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\windmill.dae"
+      projectPath: Assets\Models\DAE format\windmill.dae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\DAE format\windmill.dae.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\DAE
+        format\\windmill.dae.meta"
+      projectPath: Assets\Models\DAE format\windmill.dae.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format.meta"
+      projectPath: Assets\Models\FBX format.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\ball_blue.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\ball_blue.fbx"
+      projectPath: Assets\Models\FBX format\ball_blue.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\ball_blue.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\ball_blue.fbx.meta"
+      projectPath: Assets\Models\FBX format\ball_blue.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\ball_green.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\ball_green.fbx"
+      projectPath: Assets\Models\FBX format\ball_green.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\ball_green.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\ball_green.fbx.meta"
+      projectPath: Assets\Models\FBX format\ball_green.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\ball_red.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\ball_red.fbx"
+      projectPath: Assets\Models\FBX format\ball_red.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\ball_red.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\ball_red.fbx.meta"
+      projectPath: Assets\Models\FBX format\ball_red.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\block.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\block.fbx"
+      projectPath: Assets\Models\FBX format\block.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\block.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\block.fbx.meta"
+      projectPath: Assets\Models\FBX format\block.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\bump.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\bump.fbx"
+      projectPath: Assets\Models\FBX format\bump.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\bump.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\bump.fbx.meta"
+      projectPath: Assets\Models\FBX format\bump.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\bumpDown.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\bumpDown.fbx"
+      projectPath: Assets\Models\FBX format\bumpDown.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\bumpDown.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\bumpDown.fbx.meta"
+      projectPath: Assets\Models\FBX format\bumpDown.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\bumpDownWalls.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\bumpDownWalls.fbx"
+      projectPath: Assets\Models\FBX format\bumpDownWalls.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\bumpDownWalls.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\bumpDownWalls.fbx.meta"
+      projectPath: Assets\Models\FBX format\bumpDownWalls.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\bumpWalls.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\bumpWalls.fbx"
+      projectPath: Assets\Models\FBX format\bumpWalls.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\bumpWalls.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\bumpWalls.fbx.meta"
+      projectPath: Assets\Models\FBX format\bumpWalls.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\castle.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\castle.fbx"
+      projectPath: Assets\Models\FBX format\castle.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\castle.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\castle.fbx.meta"
+      projectPath: Assets\Models\FBX format\castle.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\club_blue.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\club_blue.fbx"
+      projectPath: Assets\Models\FBX format\club_blue.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\club_blue.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\club_blue.fbx.meta"
+      projectPath: Assets\Models\FBX format\club_blue.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\club_green.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\club_green.fbx"
+      projectPath: Assets\Models\FBX format\club_green.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\club_green.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\club_green.fbx.meta"
+      projectPath: Assets\Models\FBX format\club_green.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\club_red.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\club_red.fbx"
+      projectPath: Assets\Models\FBX format\club_red.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\club_red.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\club_red.fbx.meta"
+      projectPath: Assets\Models\FBX format\club_red.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\corner.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\corner.fbx"
+      projectPath: Assets\Models\FBX format\corner.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\corner.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\corner.fbx.meta"
+      projectPath: Assets\Models\FBX format\corner.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\crest.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\crest.fbx"
+      projectPath: Assets\Models\FBX format\crest.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\crest.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\crest.fbx.meta"
+      projectPath: Assets\Models\FBX format\crest.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\end.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\end.fbx"
+      projectPath: Assets\Models\FBX format\end.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\end.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\end.fbx.meta"
+      projectPath: Assets\Models\FBX format\end.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\flag_blue.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\flag_blue.fbx"
+      projectPath: Assets\Models\FBX format\flag_blue.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\flag_blue.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\flag_blue.fbx.meta"
+      projectPath: Assets\Models\FBX format\flag_blue.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\flag_green.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\flag_green.fbx"
+      projectPath: Assets\Models\FBX format\flag_green.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\flag_green.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\flag_green.fbx.meta"
+      projectPath: Assets\Models\FBX format\flag_green.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\flag_red.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\flag_red.fbx"
+      projectPath: Assets\Models\FBX format\flag_red.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\flag_red.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\flag_red.fbx.meta"
+      projectPath: Assets\Models\FBX format\flag_red.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\gap.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\gap.fbx"
+      projectPath: Assets\Models\FBX format\gap.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\gap.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\gap.fbx.meta"
+      projectPath: Assets\Models\FBX format\gap.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\hillCorner.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\hillCorner.fbx"
+      projectPath: Assets\Models\FBX format\hillCorner.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\hillCorner.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\hillCorner.fbx.meta"
+      projectPath: Assets\Models\FBX format\hillCorner.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\hillRound.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\hillRound.fbx"
+      projectPath: Assets\Models\FBX format\hillRound.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\hillRound.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\hillRound.fbx.meta"
+      projectPath: Assets\Models\FBX format\hillRound.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\hillSquare.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\hillSquare.fbx"
+      projectPath: Assets\Models\FBX format\hillSquare.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\hillSquare.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\hillSquare.fbx.meta"
+      projectPath: Assets\Models\FBX format\hillSquare.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\holeOpen.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\holeOpen.fbx"
+      projectPath: Assets\Models\FBX format\holeOpen.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\holeOpen.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\holeOpen.fbx.meta"
+      projectPath: Assets\Models\FBX format\holeOpen.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\holeRound.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\holeRound.fbx"
+      projectPath: Assets\Models\FBX format\holeRound.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\holeRound.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\holeRound.fbx.meta"
+      projectPath: Assets\Models\FBX format\holeRound.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\holeSquare.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\holeSquare.fbx"
+      projectPath: Assets\Models\FBX format\holeSquare.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\holeSquare.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\holeSquare.fbx.meta"
+      projectPath: Assets\Models\FBX format\holeSquare.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\innerCorner.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\innerCorner.fbx"
+      projectPath: Assets\Models\FBX format\innerCorner.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\innerCorner.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\innerCorner.fbx.meta"
+      projectPath: Assets\Models\FBX format\innerCorner.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\narrowBlock.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\narrowBlock.fbx"
+      projectPath: Assets\Models\FBX format\narrowBlock.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\narrowBlock.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\narrowBlock.fbx.meta"
+      projectPath: Assets\Models\FBX format\narrowBlock.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\narrowRound.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\narrowRound.fbx"
+      projectPath: Assets\Models\FBX format\narrowRound.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\narrowRound.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\narrowRound.fbx.meta"
+      projectPath: Assets\Models\FBX format\narrowRound.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\narrowSquare.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\narrowSquare.fbx"
+      projectPath: Assets\Models\FBX format\narrowSquare.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\narrowSquare.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\narrowSquare.fbx.meta"
+      projectPath: Assets\Models\FBX format\narrowSquare.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\obstacleBlock.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\obstacleBlock.fbx"
+      projectPath: Assets\Models\FBX format\obstacleBlock.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\obstacleBlock.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\obstacleBlock.fbx.meta"
+      projectPath: Assets\Models\FBX format\obstacleBlock.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\obstacleDiamond.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\obstacleDiamond.fbx"
+      projectPath: Assets\Models\FBX format\obstacleDiamond.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\obstacleDiamond.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\obstacleDiamond.fbx.meta"
+      projectPath: Assets\Models\FBX format\obstacleDiamond.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\obstacleTriangle.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\obstacleTriangle.fbx"
+      projectPath: Assets\Models\FBX format\obstacleTriangle.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\obstacleTriangle.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\obstacleTriangle.fbx.meta"
+      projectPath: Assets\Models\FBX format\obstacleTriangle.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\open.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\open.fbx"
+      projectPath: Assets\Models\FBX format\open.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\open.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\open.fbx.meta"
+      projectPath: Assets\Models\FBX format\open.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampA.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampA.fbx"
+      projectPath: Assets\Models\FBX format\rampA.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampA.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampA.fbx.meta"
+      projectPath: Assets\Models\FBX format\rampA.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampB.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampB.fbx"
+      projectPath: Assets\Models\FBX format\rampB.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampB.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampB.fbx.meta"
+      projectPath: Assets\Models\FBX format\rampB.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampC.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampC.fbx"
+      projectPath: Assets\Models\FBX format\rampC.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampC.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampC.fbx.meta"
+      projectPath: Assets\Models\FBX format\rampC.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampD.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampD.fbx"
+      projectPath: Assets\Models\FBX format\rampD.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampD.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampD.fbx.meta"
+      projectPath: Assets\Models\FBX format\rampD.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampSharp.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampSharp.fbx"
+      projectPath: Assets\Models\FBX format\rampSharp.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampSharp.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampSharp.fbx.meta"
+      projectPath: Assets\Models\FBX format\rampSharp.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampSquare.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampSquare.fbx"
+      projectPath: Assets\Models\FBX format\rampSquare.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\rampSquare.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\rampSquare.fbx.meta"
+      projectPath: Assets\Models\FBX format\rampSquare.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\roundCornerA.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\roundCornerA.fbx"
+      projectPath: Assets\Models\FBX format\roundCornerA.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\roundCornerA.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\roundCornerA.fbx.meta"
+      projectPath: Assets\Models\FBX format\roundCornerA.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\roundCornerB.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\roundCornerB.fbx"
+      projectPath: Assets\Models\FBX format\roundCornerB.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\roundCornerB.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\roundCornerB.fbx.meta"
+      projectPath: Assets\Models\FBX format\roundCornerB.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\roundCornerC.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\roundCornerC.fbx"
+      projectPath: Assets\Models\FBX format\roundCornerC.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\roundCornerC.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\roundCornerC.fbx.meta"
+      projectPath: Assets\Models\FBX format\roundCornerC.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\side.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\side.fbx"
+      projectPath: Assets\Models\FBX format\side.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\side.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\side.fbx.meta"
+      projectPath: Assets\Models\FBX format\side.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\split.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\split.fbx"
+      projectPath: Assets\Models\FBX format\split.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\split.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\split.fbx.meta"
+      projectPath: Assets\Models\FBX format\split.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\splitStart.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\splitStart.fbx"
+      projectPath: Assets\Models\FBX format\splitStart.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\splitStart.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\splitStart.fbx.meta"
+      projectPath: Assets\Models\FBX format\splitStart.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\splitT.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\splitT.fbx"
+      projectPath: Assets\Models\FBX format\splitT.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\splitT.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\splitT.fbx.meta"
+      projectPath: Assets\Models\FBX format\splitT.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\splitWallsToOpen.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\splitWallsToOpen.fbx"
+      projectPath: Assets\Models\FBX format\splitWallsToOpen.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\splitWallsToOpen.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\splitWallsToOpen.fbx.meta"
+      projectPath: Assets\Models\FBX format\splitWallsToOpen.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\squareCornerA.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\squareCornerA.fbx"
+      projectPath: Assets\Models\FBX format\squareCornerA.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\squareCornerA.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\squareCornerA.fbx.meta"
+      projectPath: Assets\Models\FBX format\squareCornerA.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\start.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\start.fbx"
+      projectPath: Assets\Models\FBX format\start.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\start.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\start.fbx.meta"
+      projectPath: Assets\Models\FBX format\start.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\straight.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\straight.fbx"
+      projectPath: Assets\Models\FBX format\straight.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\straight.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\straight.fbx.meta"
+      projectPath: Assets\Models\FBX format\straight.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\tunnelDouble.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\tunnelDouble.fbx"
+      projectPath: Assets\Models\FBX format\tunnelDouble.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\tunnelDouble.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\tunnelDouble.fbx.meta"
+      projectPath: Assets\Models\FBX format\tunnelDouble.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\tunnelNarrow.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\tunnelNarrow.fbx"
+      projectPath: Assets\Models\FBX format\tunnelNarrow.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\tunnelNarrow.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\tunnelNarrow.fbx.meta"
+      projectPath: Assets\Models\FBX format\tunnelNarrow.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\tunnelWide.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\tunnelWide.fbx"
+      projectPath: Assets\Models\FBX format\tunnelWide.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\tunnelWide.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\tunnelWide.fbx.meta"
+      projectPath: Assets\Models\FBX format\tunnelWide.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\wallLeft.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\wallLeft.fbx"
+      projectPath: Assets\Models\FBX format\wallLeft.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\wallLeft.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\wallLeft.fbx.meta"
+      projectPath: Assets\Models\FBX format\wallLeft.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\wallRight.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\wallRight.fbx"
+      projectPath: Assets\Models\FBX format\wallRight.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\wallRight.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\wallRight.fbx.meta"
+      projectPath: Assets\Models\FBX format\wallRight.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\wallsToOpen.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\wallsToOpen.fbx"
+      projectPath: Assets\Models\FBX format\wallsToOpen.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\wallsToOpen.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\wallsToOpen.fbx.meta"
+      projectPath: Assets\Models\FBX format\wallsToOpen.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\windmill.fbx
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\windmill.fbx"
+      projectPath: Assets\Models\FBX format\windmill.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\FBX format\windmill.fbx.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Models\\FBX
+        format\\windmill.fbx.meta"
+      projectPath: Assets\Models\FBX format\windmill.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\game.unity
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\game.unity"
+      projectPath: Assets\Scenes\game.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\game.unity.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\game.unity.meta"
+      projectPath: Assets\Scenes\game.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 8968192e1b8a53c007eabb5fa77971ef4536c3f4
+    mergeA: 
+    mergeB: 
+    authorName: Denis Harambasic
+    authorEmail: harambasicdenis@gmail.com
+    commitEmail: harambasicdenis@gmail.com
+    commitName: Denis Harambasic
+    summary: v1
+    description: v1
+    timeString: 2020-05-06T10:02:31.000+02:00
+    commitTimeString: 2020-05-06T10:02:31.000+02:00
+    changes:
+    - path: Assets\Plugins.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins.meta"
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub.meta"
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor.meta"
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs"
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf"
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs"
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png"
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\credits.txt"
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\credits.txt.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\eula.txt"
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\eula.txt.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x64.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x86.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\APIUpdater\project-dependencies.graph
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\APIUpdater\\project-dependencies.graph"
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ArtifactDB"
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\0d\0dc2d87e837a22413ec19fa64826235a
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\0d\\0dc2d87e837a22413ec19fa64826235a"
+      projectPath: Library\Artifacts\0d\0dc2d87e837a22413ec19fa64826235a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\15\1514e2a0e610c3f4dd87c9ee8b7d1daa
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\15\\1514e2a0e610c3f4dd87c9ee8b7d1daa"
+      projectPath: Library\Artifacts\15\1514e2a0e610c3f4dd87c9ee8b7d1daa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1d\1d6a681a0923f1dc546ad1fa41085354
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\1d\\1d6a681a0923f1dc546ad1fa41085354"
+      projectPath: Library\Artifacts\1d\1d6a681a0923f1dc546ad1fa41085354
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1e\1e07e0a7f1fecc0ba5d000641f583bff
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\1e\\1e07e0a7f1fecc0ba5d000641f583bff"
+      projectPath: Library\Artifacts\1e\1e07e0a7f1fecc0ba5d000641f583bff
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\20\\20ad84b0601d461c152fb4d0ead6ec56"
+      projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\24\244dda71bd3a4b99b885d4e6c35be003
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\24\\244dda71bd3a4b99b885d4e6c35be003"
+      projectPath: Library\Artifacts\24\244dda71bd3a4b99b885d4e6c35be003
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\24\\24c6ea1de51f8425abc3162c0cfec6f8"
+      projectPath: Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\31\31e2884578e4120f1df61aa0c8747e9e
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\31\\31e2884578e4120f1df61aa0c8747e9e"
+      projectPath: Library\Artifacts\31\31e2884578e4120f1df61aa0c8747e9e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\46\46824eb8215389a5db7c4197bf4c1809
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\46\\46824eb8215389a5db7c4197bf4c1809"
+      projectPath: Library\Artifacts\46\46824eb8215389a5db7c4197bf4c1809
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\47\47e33dc0886092e9d78e27f25bd4d1ef
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\47\\47e33dc0886092e9d78e27f25bd4d1ef"
+      projectPath: Library\Artifacts\47\47e33dc0886092e9d78e27f25bd4d1ef
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\53\53b2dae63fc21f1371e4c4fa0faa30c8
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\53\\53b2dae63fc21f1371e4c4fa0faa30c8"
+      projectPath: Library\Artifacts\53\53b2dae63fc21f1371e4c4fa0faa30c8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\5e\5e80521ff875e018fc96d16cf8073bdb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\5e\\5e80521ff875e018fc96d16cf8073bdb"
+      projectPath: Library\Artifacts\5e\5e80521ff875e018fc96d16cf8073bdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\73\734364cf1b176eee174fe11322470787
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\73\\734364cf1b176eee174fe11322470787"
+      projectPath: Library\Artifacts\73\734364cf1b176eee174fe11322470787
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\75\75aa016964e850a478be7665a12401ce
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\75\\75aa016964e850a478be7665a12401ce"
+      projectPath: Library\Artifacts\75\75aa016964e850a478be7665a12401ce
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\78\78eb3f8343fe9d723961db4a45865086
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\78\\78eb3f8343fe9d723961db4a45865086"
+      projectPath: Library\Artifacts\78\78eb3f8343fe9d723961db4a45865086
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\81\8171f7d797369334eb434b41e30983a4
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\81\\8171f7d797369334eb434b41e30983a4"
+      projectPath: Library\Artifacts\81\8171f7d797369334eb434b41e30983a4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\83\83493030e71bab0c16b13d4ef6487d6f
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\83\\83493030e71bab0c16b13d4ef6487d6f"
+      projectPath: Library\Artifacts\83\83493030e71bab0c16b13d4ef6487d6f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\84\8426f6c7f58f17d691f0d55bd3ef6c5f
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\84\\8426f6c7f58f17d691f0d55bd3ef6c5f"
+      projectPath: Library\Artifacts\84\8426f6c7f58f17d691f0d55bd3ef6c5f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\8f\\8f3ed435f0eebf191ee35d23afdc6d74"
+      projectPath: Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a8\a834ca4e7f3ff0302cba92e50a1cdd60
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\a8\\a834ca4e7f3ff0302cba92e50a1cdd60"
+      projectPath: Library\Artifacts\a8\a834ca4e7f3ff0302cba92e50a1cdd60
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ab\ab54c713cb2ee0fbcc44e1723dd64ad9
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\ab\\ab54c713cb2ee0fbcc44e1723dd64ad9"
+      projectPath: Library\Artifacts\ab\ab54c713cb2ee0fbcc44e1723dd64ad9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\be\be2e2ea86556c47df42586898029fb98
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\be\\be2e2ea86556c47df42586898029fb98"
+      projectPath: Library\Artifacts\be\be2e2ea86556c47df42586898029fb98
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c7\c7ff9b8430a6e668dbcee30b6ec92e26
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\c7\\c7ff9b8430a6e668dbcee30b6ec92e26"
+      projectPath: Library\Artifacts\c7\c7ff9b8430a6e668dbcee30b6ec92e26
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\cf\cf4c2ecb49dcec03dcee73ca7f5c225c
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\cf\\cf4c2ecb49dcec03dcee73ca7f5c225c"
+      projectPath: Library\Artifacts\cf\cf4c2ecb49dcec03dcee73ca7f5c225c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d2\d2a2e8c22d1ef2766db9ebfd85d718f8
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\d2\\d2a2e8c22d1ef2766db9ebfd85d718f8"
+      projectPath: Library\Artifacts\d2\d2a2e8c22d1ef2766db9ebfd85d718f8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d6\d66cf51ef8ffd197a96d633a946b6dcd
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\d6\\d66cf51ef8ffd197a96d633a946b6dcd"
+      projectPath: Library\Artifacts\d6\d66cf51ef8ffd197a96d633a946b6dcd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d7\d763441409559f0d117ca4d7ec698d1d
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\d7\\d763441409559f0d117ca4d7ec698d1d"
+      projectPath: Library\Artifacts\d7\d763441409559f0d117ca4d7ec698d1d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e2\e251c63530ed84c4caeef78110e51f75
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\e2\\e251c63530ed84c4caeef78110e51f75"
+      projectPath: Library\Artifacts\e2\e251c63530ed84c4caeef78110e51f75
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e2\e2c0b008167ed3f6c1de4987b9528891
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\e2\\e2c0b008167ed3f6c1de4987b9528891"
+      projectPath: Library\Artifacts\e2\e2c0b008167ed3f6c1de4987b9528891
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\e4\\e4661234e5e6fce3fe8b2878dd519172"
+      projectPath: Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e4\e4f9172fac44ce915361a8325943cafa
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\e4\\e4f9172fac44ce915361a8325943cafa"
+      projectPath: Library\Artifacts\e4\e4f9172fac44ce915361a8325943cafa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e5\e58036a9e121a86eedff9d108cf6279f
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\e5\\e58036a9e121a86eedff9d108cf6279f"
+      projectPath: Library\Artifacts\e5\e58036a9e121a86eedff9d108cf6279f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\ea\\eaedf0e32277cf4de744a8e8831af9ed"
+      projectPath: Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f8\f852c1221a97568db1ca9ba548c736fb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\f8\\f852c1221a97568db1ca9ba548c736fb"
+      projectPath: Library\Artifacts\f8\f852c1221a97568db1ca9ba548c736fb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f9\f9d45e8b6a6e9535802edbf672d9cdc8
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\f9\\f9d45e8b6a6e9535802edbf672d9cdc8"
+      projectPath: Library\Artifacts\f9\f9d45e8b6a6e9535802edbf672d9cdc8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\fe\\feadc1fbbce37bdaa8b62bb8ac379e4f"
+      projectPath: Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\CurrentLayout-default.dwlt"
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor-firstpass.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor-firstpass.pdb"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Unity.CollabProxy.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Unity.Rider.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Unity.TextMeshPro.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll"
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Unity.Timeline.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Unity.Timeline.dll"
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Unity.VSCode.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\UnityEditor.TestRunner.dll"
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\UnityEditor.UI.dll"
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll"
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\UnityEngine.UI.dll"
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\SourceAssetDB"
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\d2fbf0-mainStage.json
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\SceneView\\d2fbf0-mainStage.json"
+      projectPath: Library\StateCache\SceneView\d2fbf0-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gituser.yaml"
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 7ad21e1ec17d2ddbd21ef04dbfb8c2de06e7abcb
     mergeA: 
     mergeB: 
