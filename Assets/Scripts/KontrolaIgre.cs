@@ -5,34 +5,35 @@ using UnityEngine;
 public class KontrolaIgre : MonoBehaviour
 {
 
-    public float zSila = 0;
+    public float Sila = 0;
 
-   
+
     void Start()
     {
-       
+
     }
 
-   
+
     void Update()
     {
 
-        if(Input.GetKeyDown("z"))
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f) 
         {
-            zSila += 100;
+            Sila += 10;
+        }
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0f) 
+        {
+            Sila -= 10;
         }
 
-        if (Input.GetKeyDown("x"))
-        {
-            zSila += 10;
-        }
 
-        
+
+
     }
-    
 
-   void OnMouseDown()
+
+    void OnMouseDown()
     {
-        GetComponent<Rigidbody>().AddRelativeForce(0, 0, zSila);
+        GetComponent<Rigidbody>().AddRelativeForce(0, 0, Sila);
     }
 }

@@ -5,19 +5,30 @@ using UnityEngine;
 public class KameraKontroler : MonoBehaviour
 {
 
+   
 
-    public GameObject player;
+    public Transform target;
 
+    public float speed = 50f;
     private Vector3 pomak;
 
     void Start()
     {
-        pomak = transform.position - player.transform.position;    
+        pomak = transform.position - target.transform.position;    
     }
+
+
+
 
     // Update is called once per frame
     void LateUpdate()
     {
-        transform.position = player.transform.position + pomak;
+
+
+        transform.position = target.transform.position + pomak;
+        
+
+        transform.RotateAround(target.position, Vector3.up, -Input.GetAxis("Horizontal") * speed * Time.deltaTime);
+      
     }
 }
