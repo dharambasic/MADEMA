@@ -8,7 +8,6 @@ public class KameraKontroler : MonoBehaviour
    
 
     public Transform target;
-
     public float speed = 50f;
     private Vector3 pomak;
 
@@ -28,7 +27,8 @@ public class KameraKontroler : MonoBehaviour
         transform.position = target.transform.position + pomak;
         
 
-        transform.RotateAround(target.position, Vector3.up, -Input.GetAxis("Horizontal") * speed * Time.deltaTime);
-      
+        transform.RotateAround(target.position, Vector3.up, Input.GetAxis("Horizontal") * speed * Time.deltaTime);
+
+       
     }
 }

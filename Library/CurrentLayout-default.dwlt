@@ -39,12 +39,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 900
+    x: 903
     y: 0
-    width: 464
+    width: 461
     height: 657
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -71,10 +71,10 @@ MonoBehaviour:
     y: 0
     width: 1364
     height: 657
-  m_MinSize: {x: 401, y: 221}
-  m_MaxSize: {x: 8001, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 16
+  controlID: 110
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,10 +96,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 676, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 504, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 14
+  controlID: 108
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -119,14 +119,14 @@ MonoBehaviour:
     y: 0
     width: 556
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 15}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &8
 MonoBehaviour:
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 1364
     height: 947
-  m_MinSize: {x: 401, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 15
+  controlID: 109
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,10 +263,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 900
+    width: 903
     height: 657
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -305,8 +305,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -478,759 +478,28 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
-    commitMessage: v4
+    commitMessage: v9
     currentBranch: '[master]'
-    treeScroll: {x: 0, y: 25}
+    treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 618e2c91fe18cda45bfa77fde2b00547
-        - 241d6a66aa6710844adc68e64b256071
-        - fa2a67acb96f01349bf73d68221e30ff
-        - 9e33566d0bdeade4fbdb88c893493792
-        - 70f5f6a0c9cc75746a72b5c95d2b1d87
-        - b5d3fc6816fdcfa4bb46026241444a28
-        - a63de8f374f2d9d498a4525816cf4118
-        - 440e0ceda8c2ee540a8ae453cbf6e6e9
-        - 6c7cdcfa7de2a6d4e8bc8cb713b8dce4
-        - b4d850d91e83a9e4e8c19eb67f1c6791
-        - d7f042d93164ba14780e0af454853fbf
-        - 930a6f2dadf54fa4996d4a7d0ac92723
-        - 57314a922550fb94b9b67df1b01c12d0
-        - 3414c4971e4ae7e4089102081c401330
-        - 0000000000000000b000000000000000
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Physics
-          label: Physics
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Physics\Ball.physicMaterial
-          label: Ball.physicMaterial
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Physics\Ball.physicMaterial
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Physics\\Ball.physicMaterial"
-            projectPath: Assets\Physics\Ball.physicMaterial
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\point.mat
-          label: point.mat
-          level: 1
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\point.mat
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\point.mat"
-            projectPath: Assets\point.mat
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\LevelMenager.prefab
-          label: LevelMenager.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\LevelMenager.prefab
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\LevelMenager.prefab"
-            projectPath: Assets\Prefabs\LevelMenager.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Prefabs\Player.prefab
-          label: Player.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Player.prefab
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Player.prefab"
-            projectPath: Assets\Prefabs\Player.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\game.unity
-          label: game.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\game.unity
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\game.unity"
-            projectPath: Assets\Scenes\game.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scenes\Level2.unity
-          label: Level2.unity
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\Level2.unity
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\Level2.unity"
-            projectPath: Assets\Scenes\Level2.unity
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\Donja.cs
-          label: Donja.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Donja.cs
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Donja.cs"
-            projectPath: Assets\Scripts\Donja.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\Game.cs
-          label: Game.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Game.cs
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Game.cs"
-            projectPath: Assets\Scripts\Game.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\KontrolaIgre.cs
-          label: KontrolaIgre.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\KontrolaIgre.cs
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\KontrolaIgre.cs"
-            projectPath: Assets\Scripts\KontrolaIgre.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\LevelMenager.cs
-          label: LevelMenager.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\LevelMenager.cs
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\LevelMenager.cs"
-            projectPath: Assets\Scripts\LevelMenager.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: ProjectSettings\EditorBuildSettings.asset
-          label: EditorBuildSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\EditorBuildSettings.asset
-            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\ProjectSettings\\EditorBuildSettings.asset"
-            projectPath: ProjectSettings\EditorBuildSettings.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       folders:
         keys:
-        - .vs
-        - .vs\MADEMA
-        - .vs\MADEMA\v16
-        - Assets
-        - Assets\Physics
-        - Assets\Prefabs
-        - Assets\Scenes
-        - Assets\Scripts
         - Library
-        - Library\Artifacts
-        - Library\Artifacts\1f
-        - Library\Artifacts\63
-        - Library\Artifacts\77
-        - Library\Artifacts\95
-        - Library\Artifacts\9d
-        - Library\Artifacts\a5
-        - Library\Artifacts\b5
-        - Library\Artifacts\c7
-        - Library\Artifacts\ca
-        - Library\Artifacts\cf
-        - Library\Artifacts\d5
-        - Library\Artifacts\db
-        - Library\Artifacts\e9
         - Library\gfu
         - Library\gfu\cache
-        - Library\ScriptAssemblies
-        - Library\ShaderCache
-        - Library\ShaderCache\5
-        - Library\ShaderCache\d
-        - Library\StateCache
-        - Library\StateCache\Hierarchy
-        - Library\StateCache\SceneView
-        - obj
-        - obj\Debug
-        - ProjectSettings
         - Temp
+        - Temp\__Backupscenes
         values:
-        - path: .vs
-          label: .vs
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: .vs\MADEMA
-          label: MADEMA
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: .vs\MADEMA\v16
-          label: v16
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Physics
-          label: Physics
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Library
           label: Library
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts
-          label: Artifacts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\1f
-          label: 1f
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\63
-          label: 63
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\77
-          label: 77
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\95
-          label: 95
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\9d
-          label: 9d
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\a5
-          label: a5
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\b5
-          label: b5
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\c7
-          label: c7
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\ca
-          label: ca
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\cf
-          label: cf
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\d5
-          label: d5
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\db
-          label: db
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\e9
-          label: e9
-          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1282,186 +551,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Library\ScriptAssemblies
-          label: ScriptAssemblies
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\ShaderCache
-          label: ShaderCache
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\ShaderCache\5
-          label: 5
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\ShaderCache\d
-          label: d
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\StateCache
-          label: StateCache
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\StateCache\Hierarchy
-          label: Hierarchy
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\StateCache\SceneView
-          label: SceneView
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: obj
-          label: obj
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: obj\Debug
-          label: Debug
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Temp
           label: Temp
           level: 0
@@ -1471,7 +560,25 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Temp\__Backupscenes
+          label: __Backupscenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1481,8 +588,597 @@ MonoBehaviour:
             indexStatus: 0
             workTreeStatus: 0
       checkedFileNodes:
-        keys: []
-        values: []
+        keys:
+        - Temp\__Backupscenes\0.backup
+        - Temp\UnityLockfile
+        - Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+        - Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+        - Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+        - Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+        - Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+        - Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+        - Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+        - Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+        - Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+        - Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+        - Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+        - Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+        - Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+        - Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+        - Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+        - Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+        - Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+        - Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+        - Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+        - Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+        - Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+        - Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+        - Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+        - Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+        - Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+        - Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+        - Temp\UnityTempFile-e59235408da254a479010a643b746326
+        - Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+        - Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+        values:
+        - path: Temp\__Backupscenes\0.backup
+          label: 0.backup
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\__Backupscenes\0.backup
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\__Backupscenes\\0.backup"
+            projectPath: Temp\__Backupscenes\0.backup
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityLockfile
+          label: UnityLockfile
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityLockfile
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityLockfile"
+            projectPath: Temp\UnityLockfile
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+          label: UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-04b7e1c5278d00f46979526f7a583a80"
+            projectPath: Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+          label: UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced"
+            projectPath: Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+          label: UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d"
+            projectPath: Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+          label: UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0"
+            projectPath: Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+          label: UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2"
+            projectPath: Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+          label: UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26"
+            projectPath: Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+          label: UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4"
+            projectPath: Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+          label: UnityTempFile-69b52300e788524459c1af9093d4e0a5
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-69b52300e788524459c1af9093d4e0a5"
+            projectPath: Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+          label: UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297"
+            projectPath: Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+          label: UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-7ed197b5bb91b6546854d7c2642970af"
+            projectPath: Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+          label: UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-81652a09524eb7d48a6e56a3693027ac"
+            projectPath: Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+          label: UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9"
+            projectPath: Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+          label: UnityTempFile-990628505a890c04a87a9249278f1e9e
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-990628505a890c04a87a9249278f1e9e"
+            projectPath: Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+          label: UnityTempFile-9b46db6bf846931409ce8b1625644ace
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-9b46db6bf846931409ce8b1625644ace"
+            projectPath: Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+          label: UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e"
+            projectPath: Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+          label: UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215"
+            projectPath: Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+          label: UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89"
+            projectPath: Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+          label: UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2"
+            projectPath: Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+          label: UnityTempFile-aed14e397646ebc4fa07568c16777e79
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-aed14e397646ebc4fa07568c16777e79"
+            projectPath: Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+          label: UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976"
+            projectPath: Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+          label: UnityTempFile-bf5d56eb72073a54a8381534f295e851
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-bf5d56eb72073a54a8381534f295e851"
+            projectPath: Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+          label: UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c138797dcbeda9b42899a1149bfbba22"
+            projectPath: Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+          label: UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f"
+            projectPath: Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+          label: UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b"
+            projectPath: Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+          label: UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721"
+            projectPath: Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+          label: UnityTempFile-d614464603a2d694394df5984c4a3ac1
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-d614464603a2d694394df5984c4a3ac1"
+            projectPath: Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-e59235408da254a479010a643b746326
+          label: UnityTempFile-e59235408da254a479010a643b746326
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-e59235408da254a479010a643b746326
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-e59235408da254a479010a643b746326"
+            projectPath: Temp\UnityTempFile-e59235408da254a479010a643b746326
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+          label: UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24"
+            projectPath: Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+          label: UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+            fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9"
+            projectPath: Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
       title: 
       pathSeparator: \
       displayRootNode: 0
@@ -1508,564 +1204,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vs
-        label: .vs
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vs\MADEMA
-        label: MADEMA
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vs\MADEMA\v16
-        label: v16
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vs\MADEMA\v16\.suo
-        label: .suo
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\MADEMA\v16\.suo
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\.vs\\MADEMA\\v16\\.suo"
-          projectPath: .vs\MADEMA\v16\.suo
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assembly-CSharp.csproj
-        label: Assembly-CSharp.csproj
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assembly-CSharp.csproj
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assembly-CSharp.csproj"
-          projectPath: Assembly-CSharp.csproj
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assembly-CSharp-Editor-firstpass.csproj
-        label: Assembly-CSharp-Editor-firstpass.csproj
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assembly-CSharp-Editor-firstpass.csproj
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assembly-CSharp-Editor-firstpass.csproj"
-          projectPath: Assembly-CSharp-Editor-firstpass.csproj
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Physics.meta
-        label: Physics.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Physics.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Physics.meta"
-          projectPath: Assets\Physics.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Physics
-        label: Physics
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Physics\Ball.physicMaterial
-        label: Ball.physicMaterial
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Physics\Ball.physicMaterial
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Physics\\Ball.physicMaterial"
-          projectPath: Assets\Physics\Ball.physicMaterial
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Physics\Ball.physicMaterial.meta
-        label: Ball.physicMaterial.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Physics\Ball.physicMaterial.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Physics\\Ball.physicMaterial.meta"
-          projectPath: Assets\Physics\Ball.physicMaterial.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\point.mat
-        label: point.mat
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\point.mat
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\point.mat"
-          projectPath: Assets\point.mat
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\point.mat.meta
-        label: point.mat.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\point.mat.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\point.mat.meta"
-          projectPath: Assets\point.mat.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs
-        label: Prefabs
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Prefabs\LevelMenager.prefab
-        label: LevelMenager.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\LevelMenager.prefab
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\LevelMenager.prefab"
-          projectPath: Assets\Prefabs\LevelMenager.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs\LevelMenager.prefab.meta
-        label: LevelMenager.prefab.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\LevelMenager.prefab.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\LevelMenager.prefab.meta"
-          projectPath: Assets\Prefabs\LevelMenager.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs\Player.prefab
-        label: Player.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Player.prefab
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Player.prefab"
-          projectPath: Assets\Prefabs\Player.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs\Player.prefab.meta
-        label: Player.prefab.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Player.prefab.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Player.prefab.meta"
-          projectPath: Assets\Prefabs\Player.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\game.unity
-        label: game.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\game.unity
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\game.unity"
-          projectPath: Assets\Scenes\game.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scenes\Level2.unity
-        label: Level2.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\Level2.unity
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\Level2.unity"
-          projectPath: Assets\Scenes\Level2.unity
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes\Level2.unity.meta
-        label: Level2.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\Level2.unity.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\Level2.unity.meta"
-          projectPath: Assets\Scenes\Level2.unity.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\SampleScene.unity"
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Scenes\SampleScene.unity.meta
-        label: SampleScene.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\SampleScene.unity.meta"
-          projectPath: Assets\Scenes\SampleScene.unity.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\Donja.cs
-        label: Donja.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Donja.cs
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Donja.cs"
-          projectPath: Assets\Scripts\Donja.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Donja.cs.meta
-        label: Donja.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Donja.cs.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Donja.cs.meta"
-          projectPath: Assets\Scripts\Donja.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Game.cs
-        label: Game.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Game.cs
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Game.cs"
-          projectPath: Assets\Scripts\Game.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Game.cs.meta
-        label: Game.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Game.cs.meta
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Game.cs.meta"
-          projectPath: Assets\Scripts\Game.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\KontrolaIgre.cs
-        label: KontrolaIgre.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\KontrolaIgre.cs
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\KontrolaIgre.cs"
-          projectPath: Assets\Scripts\KontrolaIgre.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\LevelMenager.cs
-        label: LevelMenager.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\LevelMenager.cs
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\LevelMenager.cs"
-          projectPath: Assets\Scripts\LevelMenager.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Library
         label: Library
         level: 0
@@ -2084,564 +1222,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Library\ArtifactDB
-        label: ArtifactDB
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ArtifactDB
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ArtifactDB"
-          projectPath: Library\ArtifactDB
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\Artifacts
-        label: Artifacts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\1f
-        label: 1f
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\1f\1f0a925562cf8cd7d69534dd5e8c3dea
-        label: 1f0a925562cf8cd7d69534dd5e8c3dea
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\1f\1f0a925562cf8cd7d69534dd5e8c3dea
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\1f\\1f0a925562cf8cd7d69534dd5e8c3dea"
-          projectPath: Library\Artifacts\1f\1f0a925562cf8cd7d69534dd5e8c3dea
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Library\Artifacts\63
-        label: 63
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\63\63f7ac87ccd7568b050f2a3ac6c1d611
-        label: 63f7ac87ccd7568b050f2a3ac6c1d611
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\63\63f7ac87ccd7568b050f2a3ac6c1d611
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\63\\63f7ac87ccd7568b050f2a3ac6c1d611"
-          projectPath: Library\Artifacts\63\63f7ac87ccd7568b050f2a3ac6c1d611
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Library\Artifacts\77
-        label: 77
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\77\77ea2c23de2c1659aa36124341c023b3
-        label: 77ea2c23de2c1659aa36124341c023b3
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\77\77ea2c23de2c1659aa36124341c023b3
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\77\\77ea2c23de2c1659aa36124341c023b3"
-          projectPath: Library\Artifacts\77\77ea2c23de2c1659aa36124341c023b3
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\95
-        label: 95
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\95\957c33a381c6d8c725045f7f31821d2a
-        label: 957c33a381c6d8c725045f7f31821d2a
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\95\957c33a381c6d8c725045f7f31821d2a
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\95\\957c33a381c6d8c725045f7f31821d2a"
-          projectPath: Library\Artifacts\95\957c33a381c6d8c725045f7f31821d2a
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\9d
-        label: 9d
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\9d\9d44f3876b6760d0b9f1345e7b6fbe5f
-        label: 9d44f3876b6760d0b9f1345e7b6fbe5f
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\9d\9d44f3876b6760d0b9f1345e7b6fbe5f
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\9d\\9d44f3876b6760d0b9f1345e7b6fbe5f"
-          projectPath: Library\Artifacts\9d\9d44f3876b6760d0b9f1345e7b6fbe5f
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\a5
-        label: a5
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\a5\a56d02f28c92b75a8aa1b677fb5b7e46
-        label: a56d02f28c92b75a8aa1b677fb5b7e46
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\a5\a56d02f28c92b75a8aa1b677fb5b7e46
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\a5\\a56d02f28c92b75a8aa1b677fb5b7e46"
-          projectPath: Library\Artifacts\a5\a56d02f28c92b75a8aa1b677fb5b7e46
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\b5
-        label: b5
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\b5\b56a8cce6d8642d2162cf6e164e00957
-        label: b56a8cce6d8642d2162cf6e164e00957
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\b5\b56a8cce6d8642d2162cf6e164e00957
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\b5\\b56a8cce6d8642d2162cf6e164e00957"
-          projectPath: Library\Artifacts\b5\b56a8cce6d8642d2162cf6e164e00957
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\c7
-        label: c7
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\c7\c738f44be16789b6edb8187a9c6fe94c
-        label: c738f44be16789b6edb8187a9c6fe94c
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\c7\c738f44be16789b6edb8187a9c6fe94c
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\c7\\c738f44be16789b6edb8187a9c6fe94c"
-          projectPath: Library\Artifacts\c7\c738f44be16789b6edb8187a9c6fe94c
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Library\Artifacts\ca
-        label: ca
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\ca\ca5bf8b3ef620a1c794e332772ed007b
-        label: ca5bf8b3ef620a1c794e332772ed007b
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\ca\ca5bf8b3ef620a1c794e332772ed007b
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\ca\\ca5bf8b3ef620a1c794e332772ed007b"
-          projectPath: Library\Artifacts\ca\ca5bf8b3ef620a1c794e332772ed007b
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\cf
-        label: cf
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\cf\cf88855d5a2a4136c4cfc478b1f11989
-        label: cf88855d5a2a4136c4cfc478b1f11989
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\cf\cf88855d5a2a4136c4cfc478b1f11989
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\cf\\cf88855d5a2a4136c4cfc478b1f11989"
-          projectPath: Library\Artifacts\cf\cf88855d5a2a4136c4cfc478b1f11989
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\d5
-        label: d5
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\d5\d5c15541c3c2955c3b0a3a1c29cffec9
-        label: d5c15541c3c2955c3b0a3a1c29cffec9
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\d5\d5c15541c3c2955c3b0a3a1c29cffec9
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\d5\\d5c15541c3c2955c3b0a3a1c29cffec9"
-          projectPath: Library\Artifacts\d5\d5c15541c3c2955c3b0a3a1c29cffec9
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\db
-        label: db
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\db\db12e55e847bb8a9b29c2e66305c901d
-        label: db12e55e847bb8a9b29c2e66305c901d
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\db\db12e55e847bb8a9b29c2e66305c901d
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\db\\db12e55e847bb8a9b29c2e66305c901d"
-          projectPath: Library\Artifacts\db\db12e55e847bb8a9b29c2e66305c901d
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\Artifacts\e9
-        label: e9
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\e9\e98299184961040905d5743c86575fae
-        label: e98299184961040905d5743c86575fae
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\e9\e98299184961040905d5743c86575fae
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\e9\\e98299184961040905d5743c86575fae"
-          projectPath: Library\Artifacts\e9\e98299184961040905d5743c86575fae
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\CurrentLayout-default.dwlt
-        label: CurrentLayout-default.dwlt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\CurrentLayout-default.dwlt
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\CurrentLayout-default.dwlt"
-          projectPath: Library\CurrentLayout-default.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\EditorInstance.json
-        label: EditorInstance.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\EditorInstance.json
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\EditorInstance.json"
-          projectPath: Library\EditorInstance.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\EditorUserBuildSettings.asset
-        label: EditorUserBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\EditorUserBuildSettings.asset
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\EditorUserBuildSettings.asset"
-          projectPath: Library\EditorUserBuildSettings.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Library\gfu
         label: gfu
         level: 1
@@ -2696,60 +1276,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\gfu\cache\gitlocks.yaml
-        label: gitlocks.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gitlocks.yaml
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlocks.yaml"
-          projectPath: Library\gfu\cache\gitlocks.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\gfu\cache\gitlog.yaml
-        label: gitlog.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gitlog.yaml
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlog.yaml"
-          projectPath: Library\gfu\cache\gitlog.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\gfu\cache\gitstatusentries.yaml
-        label: gitstatusentries.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gitstatusentries.yaml
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitstatusentries.yaml"
-          projectPath: Library\gfu\cache\gitstatusentries.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Library\gfu\cache\gittrackingstatus.yaml
         label: gittrackingstatus.yaml
         level: 3
@@ -2768,690 +1294,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\gfu\cache\gituser.yaml
-        label: gituser.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gituser.yaml
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gituser.yaml"
-          projectPath: Library\gfu\cache\gituser.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\gfu\cache\repoinfo.yaml
-        label: repoinfo.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\repoinfo.yaml
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\repoinfo.yaml"
-          projectPath: Library\gfu\cache\repoinfo.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\InspectorExpandedItems.asset
-        label: InspectorExpandedItems.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\InspectorExpandedItems.asset
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\InspectorExpandedItems.asset"
-          projectPath: Library\InspectorExpandedItems.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\LastSceneManagerSetup.txt
-        label: LastSceneManagerSetup.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\LastSceneManagerSetup.txt
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\LastSceneManagerSetup.txt"
-          projectPath: Library\LastSceneManagerSetup.txt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\SceneVisibilityState.asset
-        label: SceneVisibilityState.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\SceneVisibilityState.asset
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\SceneVisibilityState.asset"
-          projectPath: Library\SceneVisibilityState.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\ScriptAssemblies
-        label: ScriptAssemblies
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-        label: Assembly-CSharp.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp.dll
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-        label: Assembly-CSharp.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Assembly-CSharp.pdb"
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\ShaderCache
-        label: ShaderCache
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\ShaderCache\5
-        label: 5
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\ShaderCache\5\52e8be40127b32e85b53ff5f72c0e4f8.bin
-        label: 52e8be40127b32e85b53ff5f72c0e4f8.bin
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ShaderCache\5\52e8be40127b32e85b53ff5f72c0e4f8.bin
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\5\\52e8be40127b32e85b53ff5f72c0e4f8.bin"
-          projectPath: Library\ShaderCache\5\52e8be40127b32e85b53ff5f72c0e4f8.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\ShaderCache\d
-        label: d
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\ShaderCache\d\db0469f6a9d96d9be6d75efd0bb87d15.bin
-        label: db0469f6a9d96d9be6d75efd0bb87d15.bin
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ShaderCache\d\db0469f6a9d96d9be6d75efd0bb87d15.bin
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\d\\db0469f6a9d96d9be6d75efd0bb87d15.bin"
-          projectPath: Library\ShaderCache\d\db0469f6a9d96d9be6d75efd0bb87d15.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Library\ShaderCache\EditorEncounteredVariants
-        label: EditorEncounteredVariants
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ShaderCache\EditorEncounteredVariants
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\EditorEncounteredVariants"
-          projectPath: Library\ShaderCache\EditorEncounteredVariants
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-        label: shadercompiler-UnityShaderCompiler.exe0.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-        label: shadercompiler-UnityShaderCompiler.exe1.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe1.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-        label: shadercompiler-UnityShaderCompiler.exe2.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe2.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-        label: shadercompiler-UnityShaderCompiler.exe3.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe3.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-        label: shadercompiler-UnityShaderCompiler.exe4.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe4.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\SourceAssetDB
-        label: SourceAssetDB
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\SourceAssetDB
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\SourceAssetDB"
-          projectPath: Library\SourceAssetDB
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\StateCache
-        label: StateCache
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\StateCache\Hierarchy
-        label: Hierarchy
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\StateCache\Hierarchy\42a804-mainStage.json
-        label: 42a804-mainStage.json
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\StateCache\Hierarchy\42a804-mainStage.json
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\Hierarchy\\42a804-mainStage.json"
-          projectPath: Library\StateCache\Hierarchy\42a804-mainStage.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\StateCache\SceneView
-        label: SceneView
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\StateCache\SceneView\d2fbf0-mainStage.json
-        label: d2fbf0-mainStage.json
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\StateCache\SceneView\d2fbf0-mainStage.json
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\SceneView\\d2fbf0-mainStage.json"
-          projectPath: Library\StateCache\SceneView\d2fbf0-mainStage.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: MADEMA.sln
-        label: MADEMA.sln
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: MADEMA.sln
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\MADEMA.sln"
-          projectPath: MADEMA.sln
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj
-        label: obj
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: obj\Debug
-        label: Debug
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-        label: Assembly-CSharp.csproj.CopyComplete
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.csproj.CopyComplete"
-          projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-        label: Assembly-CSharp.csproj.CoreCompileInputs.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
-          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-        label: Assembly-CSharp.csproj.FileListAbsolute.txt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.csproj.FileListAbsolute.txt"
-          projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-        label: Assembly-CSharp.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
-          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj\Debug\Assembly-CSharp.dll
-        label: Assembly-CSharp.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.dll
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.dll"
-          projectPath: obj\Debug\Assembly-CSharp.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj\Debug\Assembly-CSharp.pdb
-        label: Assembly-CSharp.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.pdb
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.pdb"
-          projectPath: obj\Debug\Assembly-CSharp.pdb
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        label: Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache"
-          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-        label: DesignTimeResolveAssemblyReferencesInput.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\DesignTimeResolveAssemblyReferencesInput.cache"
-          projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\ProjectSettings\\EditorBuildSettings.asset"
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Temp
         label: Temp
         level: 0
@@ -3461,7 +1303,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -3470,6 +1312,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Temp\__Backupscenes
+        label: __Backupscenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Temp\__Backupscenes\0.backup
+        label: 0.backup
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\__Backupscenes\0.backup
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\__Backupscenes\\0.backup"
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Temp\UnityLockfile
         label: UnityLockfile
         level: 1
@@ -3479,12 +1357,534 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: Temp\UnityLockfile
           fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityLockfile"
           projectPath: Temp\UnityLockfile
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+        label: UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-04b7e1c5278d00f46979526f7a583a80"
+          projectPath: Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+        label: UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced"
+          projectPath: Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+        label: UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d"
+          projectPath: Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+        label: UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0"
+          projectPath: Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+        label: UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2"
+          projectPath: Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+        label: UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26"
+          projectPath: Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+        label: UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4"
+          projectPath: Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+        label: UnityTempFile-69b52300e788524459c1af9093d4e0a5
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-69b52300e788524459c1af9093d4e0a5"
+          projectPath: Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+        label: UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297"
+          projectPath: Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+        label: UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-7ed197b5bb91b6546854d7c2642970af"
+          projectPath: Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+        label: UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-81652a09524eb7d48a6e56a3693027ac"
+          projectPath: Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+        label: UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9"
+          projectPath: Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+        label: UnityTempFile-990628505a890c04a87a9249278f1e9e
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-990628505a890c04a87a9249278f1e9e"
+          projectPath: Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+        label: UnityTempFile-9b46db6bf846931409ce8b1625644ace
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-9b46db6bf846931409ce8b1625644ace"
+          projectPath: Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+        label: UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e"
+          projectPath: Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+        label: UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215"
+          projectPath: Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+        label: UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89"
+          projectPath: Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+        label: UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2"
+          projectPath: Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+        label: UnityTempFile-aed14e397646ebc4fa07568c16777e79
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-aed14e397646ebc4fa07568c16777e79"
+          projectPath: Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+        label: UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976"
+          projectPath: Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+        label: UnityTempFile-bf5d56eb72073a54a8381534f295e851
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-bf5d56eb72073a54a8381534f295e851"
+          projectPath: Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+        label: UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c138797dcbeda9b42899a1149bfbba22"
+          projectPath: Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+        label: UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f"
+          projectPath: Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+        label: UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b"
+          projectPath: Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+        label: UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721"
+          projectPath: Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+        label: UnityTempFile-d614464603a2d694394df5984c4a3ac1
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-d614464603a2d694394df5984c4a3ac1"
+          projectPath: Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-e59235408da254a479010a643b746326
+        label: UnityTempFile-e59235408da254a479010a643b746326
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-e59235408da254a479010a643b746326
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-e59235408da254a479010a643b746326"
+          projectPath: Temp\UnityTempFile-e59235408da254a479010a643b746326
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+        label: UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24"
+          projectPath: Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+        label: UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9"
+          projectPath: Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -3508,267 +1908,9 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: .vs\MADEMA\v16\.suo
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\.vs\\MADEMA\\v16\\.suo"
-      projectPath: .vs\MADEMA\v16\.suo
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assembly-CSharp.csproj
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assembly-CSharp.csproj"
-      projectPath: Assembly-CSharp.csproj
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assembly-CSharp-Editor-firstpass.csproj
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assembly-CSharp-Editor-firstpass.csproj"
-      projectPath: Assembly-CSharp-Editor-firstpass.csproj
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Physics.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Physics.meta"
-      projectPath: Assets\Physics.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Physics\Ball.physicMaterial
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Physics\\Ball.physicMaterial"
-      projectPath: Assets\Physics\Ball.physicMaterial
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Physics\Ball.physicMaterial.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Physics\\Ball.physicMaterial.meta"
-      projectPath: Assets\Physics\Ball.physicMaterial.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\point.mat
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\point.mat"
-      projectPath: Assets\point.mat
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\point.mat.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\point.mat.meta"
-      projectPath: Assets\point.mat.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\LevelMenager.prefab
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\LevelMenager.prefab"
-      projectPath: Assets\Prefabs\LevelMenager.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\LevelMenager.prefab.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\LevelMenager.prefab.meta"
-      projectPath: Assets\Prefabs\LevelMenager.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\Player.prefab
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Player.prefab"
-      projectPath: Assets\Prefabs\Player.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\Player.prefab.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Player.prefab.meta"
-      projectPath: Assets\Prefabs\Player.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\game.unity
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\game.unity"
-      projectPath: Assets\Scenes\game.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scenes\Level2.unity
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\Level2.unity"
-      projectPath: Assets\Scenes\Level2.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\Level2.unity.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\Level2.unity.meta"
-      projectPath: Assets\Scenes\Level2.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\SampleScene.unity"
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Scenes\SampleScene.unity.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\SampleScene.unity.meta"
-      projectPath: Assets\Scenes\SampleScene.unity.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Scripts\Donja.cs
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Donja.cs"
-      projectPath: Assets\Scripts\Donja.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Donja.cs.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Donja.cs.meta"
-      projectPath: Assets\Scripts\Donja.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Game.cs
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Game.cs"
-      projectPath: Assets\Scripts\Game.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Game.cs.meta
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\Game.cs.meta"
-      projectPath: Assets\Scripts\Game.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\KontrolaIgre.cs
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\KontrolaIgre.cs"
-      projectPath: Assets\Scripts\KontrolaIgre.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\LevelMenager.cs
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scripts\\LevelMenager.cs"
-      projectPath: Assets\Scripts\LevelMenager.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\ArtifactDB
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ArtifactDB"
-      projectPath: Library\ArtifactDB
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\Artifacts\1f\1f0a925562cf8cd7d69534dd5e8c3dea
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\1f\\1f0a925562cf8cd7d69534dd5e8c3dea"
-      projectPath: Library\Artifacts\1f\1f0a925562cf8cd7d69534dd5e8c3dea
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Library\Artifacts\63\63f7ac87ccd7568b050f2a3ac6c1d611
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\63\\63f7ac87ccd7568b050f2a3ac6c1d611"
-      projectPath: Library\Artifacts\63\63f7ac87ccd7568b050f2a3ac6c1d611
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Library\Artifacts\77\77ea2c23de2c1659aa36124341c023b3
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\77\\77ea2c23de2c1659aa36124341c023b3"
-      projectPath: Library\Artifacts\77\77ea2c23de2c1659aa36124341c023b3
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\95\957c33a381c6d8c725045f7f31821d2a
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\95\\957c33a381c6d8c725045f7f31821d2a"
-      projectPath: Library\Artifacts\95\957c33a381c6d8c725045f7f31821d2a
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\9d\9d44f3876b6760d0b9f1345e7b6fbe5f
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\9d\\9d44f3876b6760d0b9f1345e7b6fbe5f"
-      projectPath: Library\Artifacts\9d\9d44f3876b6760d0b9f1345e7b6fbe5f
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\a5\a56d02f28c92b75a8aa1b677fb5b7e46
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\a5\\a56d02f28c92b75a8aa1b677fb5b7e46"
-      projectPath: Library\Artifacts\a5\a56d02f28c92b75a8aa1b677fb5b7e46
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\b5\b56a8cce6d8642d2162cf6e164e00957
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\b5\\b56a8cce6d8642d2162cf6e164e00957"
-      projectPath: Library\Artifacts\b5\b56a8cce6d8642d2162cf6e164e00957
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\c7\c738f44be16789b6edb8187a9c6fe94c
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\c7\\c738f44be16789b6edb8187a9c6fe94c"
-      projectPath: Library\Artifacts\c7\c738f44be16789b6edb8187a9c6fe94c
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Library\Artifacts\ca\ca5bf8b3ef620a1c794e332772ed007b
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\ca\\ca5bf8b3ef620a1c794e332772ed007b"
-      projectPath: Library\Artifacts\ca\ca5bf8b3ef620a1c794e332772ed007b
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\cf\cf88855d5a2a4136c4cfc478b1f11989
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\cf\\cf88855d5a2a4136c4cfc478b1f11989"
-      projectPath: Library\Artifacts\cf\cf88855d5a2a4136c4cfc478b1f11989
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\d5\d5c15541c3c2955c3b0a3a1c29cffec9
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\d5\\d5c15541c3c2955c3b0a3a1c29cffec9"
-      projectPath: Library\Artifacts\d5\d5c15541c3c2955c3b0a3a1c29cffec9
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\db\db12e55e847bb8a9b29c2e66305c901d
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\db\\db12e55e847bb8a9b29c2e66305c901d"
-      projectPath: Library\Artifacts\db\db12e55e847bb8a9b29c2e66305c901d
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\Artifacts\e9\e98299184961040905d5743c86575fae
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\e9\\e98299184961040905d5743c86575fae"
-      projectPath: Library\Artifacts\e9\e98299184961040905d5743c86575fae
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\CurrentLayout-default.dwlt
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\CurrentLayout-default.dwlt"
-      projectPath: Library\CurrentLayout-default.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\EditorInstance.json
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\EditorInstance.json"
-      projectPath: Library\EditorInstance.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\EditorUserBuildSettings.asset
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\EditorUserBuildSettings.asset"
-      projectPath: Library\EditorUserBuildSettings.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: Library\gfu\cache\branches.yaml
       fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\branches.yaml"
       projectPath: Library\gfu\cache\branches.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\gfu\cache\gitlocks.yaml
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlocks.yaml"
-      projectPath: Library\gfu\cache\gitlocks.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\gfu\cache\gitlog.yaml
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlog.yaml"
-      projectPath: Library\gfu\cache\gitlog.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\gfu\cache\gitstatusentries.yaml
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitstatusentries.yaml"
-      projectPath: Library\gfu\cache\gitstatusentries.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -3778,189 +1920,201 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\gfu\cache\gituser.yaml
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gituser.yaml"
-      projectPath: Library\gfu\cache\gituser.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\gfu\cache\repoinfo.yaml
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\repoinfo.yaml"
-      projectPath: Library\gfu\cache\repoinfo.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\InspectorExpandedItems.asset
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\InspectorExpandedItems.asset"
-      projectPath: Library\InspectorExpandedItems.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\LastSceneManagerSetup.txt
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\LastSceneManagerSetup.txt"
-      projectPath: Library\LastSceneManagerSetup.txt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\SceneVisibilityState.asset
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\SceneVisibilityState.asset"
-      projectPath: Library\SceneVisibilityState.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    - path: Temp\__Backupscenes\0.backup
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\__Backupscenes\\0.backup"
+      projectPath: Temp\__Backupscenes\0.backup
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ScriptAssemblies\\Assembly-CSharp.pdb"
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\ShaderCache\5\52e8be40127b32e85b53ff5f72c0e4f8.bin
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\5\\52e8be40127b32e85b53ff5f72c0e4f8.bin"
-      projectPath: Library\ShaderCache\5\52e8be40127b32e85b53ff5f72c0e4f8.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\ShaderCache\d\db0469f6a9d96d9be6d75efd0bb87d15.bin
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\d\\db0469f6a9d96d9be6d75efd0bb87d15.bin"
-      projectPath: Library\ShaderCache\d\db0469f6a9d96d9be6d75efd0bb87d15.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Library\ShaderCache\EditorEncounteredVariants
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\EditorEncounteredVariants"
-      projectPath: Library\ShaderCache\EditorEncounteredVariants
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe1.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe2.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe3.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe4.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\SourceAssetDB
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\SourceAssetDB"
-      projectPath: Library\SourceAssetDB
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\StateCache\Hierarchy\42a804-mainStage.json
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\Hierarchy\\42a804-mainStage.json"
-      projectPath: Library\StateCache\Hierarchy\42a804-mainStage.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\StateCache\SceneView\d2fbf0-mainStage.json
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\SceneView\\d2fbf0-mainStage.json"
-      projectPath: Library\StateCache\SceneView\d2fbf0-mainStage.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: MADEMA.sln
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\MADEMA.sln"
-      projectPath: MADEMA.sln
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.csproj.CopyComplete"
-      projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
-      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.csproj.FileListAbsolute.txt"
-      projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
-      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp.dll
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.dll"
-      projectPath: obj\Debug\Assembly-CSharp.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp.pdb
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp.pdb"
-      projectPath: obj\Debug\Assembly-CSharp.pdb
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache"
-      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\obj\\Debug\\DesignTimeResolveAssemblyReferencesInput.cache"
-      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\ProjectSettings\\EditorBuildSettings.asset"
-      projectPath: ProjectSettings\EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: Temp\UnityLockfile
       fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityLockfile"
       projectPath: Temp\UnityLockfile
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    changedFilesText: 74 changed files
+    - path: Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-04b7e1c5278d00f46979526f7a583a80"
+      projectPath: Temp\UnityTempFile-04b7e1c5278d00f46979526f7a583a80
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced"
+      projectPath: Temp\UnityTempFile-18d2da68a3314fc4a8f329b03ffd8ced
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d"
+      projectPath: Temp\UnityTempFile-25395ed9c12b1be4ea7fe3394b39467d
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0"
+      projectPath: Temp\UnityTempFile-3bd85c9dc441b8b448429570fbed8ee0
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2"
+      projectPath: Temp\UnityTempFile-3f5b2480ff73cbb48a22684aaf8e67a2
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26"
+      projectPath: Temp\UnityTempFile-42b6ce16b657d7c4583c1798c9ed1f26
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4"
+      projectPath: Temp\UnityTempFile-67d15a56f459d7d4ea5c08937a4ad7b4
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-69b52300e788524459c1af9093d4e0a5"
+      projectPath: Temp\UnityTempFile-69b52300e788524459c1af9093d4e0a5
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297"
+      projectPath: Temp\UnityTempFile-7c86a7bdf9515814c8a3a419f19f9297
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-7ed197b5bb91b6546854d7c2642970af"
+      projectPath: Temp\UnityTempFile-7ed197b5bb91b6546854d7c2642970af
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-81652a09524eb7d48a6e56a3693027ac"
+      projectPath: Temp\UnityTempFile-81652a09524eb7d48a6e56a3693027ac
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9"
+      projectPath: Temp\UnityTempFile-8f4212d1aa98939429ef1e8493755fd9
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-990628505a890c04a87a9249278f1e9e"
+      projectPath: Temp\UnityTempFile-990628505a890c04a87a9249278f1e9e
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-9b46db6bf846931409ce8b1625644ace"
+      projectPath: Temp\UnityTempFile-9b46db6bf846931409ce8b1625644ace
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e"
+      projectPath: Temp\UnityTempFile-a1207d4790c7cf342ac5f46e4c104c1e
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215"
+      projectPath: Temp\UnityTempFile-a13e0439174e6864d8ef74e4ab4a6215
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89"
+      projectPath: Temp\UnityTempFile-a8fe7a0b92bf3db46ad7a56266650c89
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2"
+      projectPath: Temp\UnityTempFile-ab3a03e0c3ae8714d84c020aeca8f6a2
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-aed14e397646ebc4fa07568c16777e79"
+      projectPath: Temp\UnityTempFile-aed14e397646ebc4fa07568c16777e79
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976"
+      projectPath: Temp\UnityTempFile-bb28dc4a29bddda47b7cbb390930b976
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-bf5d56eb72073a54a8381534f295e851"
+      projectPath: Temp\UnityTempFile-bf5d56eb72073a54a8381534f295e851
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c138797dcbeda9b42899a1149bfbba22"
+      projectPath: Temp\UnityTempFile-c138797dcbeda9b42899a1149bfbba22
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f"
+      projectPath: Temp\UnityTempFile-c4ab9040b0db60e40ba3a2ffb773f62f
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b"
+      projectPath: Temp\UnityTempFile-c62c5ef172e4e8942b7c83ad5e62579b
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721"
+      projectPath: Temp\UnityTempFile-d28f7f3c1b9827345b976bc005a2b721
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-d614464603a2d694394df5984c4a3ac1"
+      projectPath: Temp\UnityTempFile-d614464603a2d694394df5984c4a3ac1
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-e59235408da254a479010a643b746326
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-e59235408da254a479010a643b746326"
+      projectPath: Temp\UnityTempFile-e59235408da254a479010a643b746326
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24"
+      projectPath: Temp\UnityTempFile-e94be6888f6535d45a5e5fb33f0f7b24
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9"
+      projectPath: Temp\UnityTempFile-ea4c3f75baafcf74d97a49dea625afb9
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 33 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-05-16T22:46:10.945+02:00
+      updatedTimeString: 2020-05-17T11:52:23.846+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-05-17T01:31:20.870+02:00
+      updatedTimeString: 2020-05-17T11:51:52.806+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-05-17T01:31:20.860+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -70602,13 +68756,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2020-05-15T10:37:55.453+02:00
+    updatedTimeString: 2020-05-17T11:52:23.846+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2020-05-15T10:37:56.371+02:00
+    updatedTimeString: 2020-05-17T11:53:17.416+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-05-15T10:37:56.311+02:00
+    updatedTimeString: 2020-05-17T11:51:52.806+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -70697,34 +68851,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 62
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 62
   m_LastProjectPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a350000
-    m_LastClickedID: 13674
-    m_ExpandedIDs: 000000004235000000ca9a3b
+    m_SelectedIDs: 0e350000
+    m_LastClickedID: 13582
+    m_ExpandedIDs: 000000000e35000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scenes
-      m_OriginalName: Scenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 13672
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -70738,7 +68892,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000042350000
+    m_ExpandedIDs: 000000000e350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -70853,17 +69007,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 900
+    x: 903
     y: 73
-    width: 462
+    width: 459
     height: 636
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9e320000
+      m_SelectedIDs: 0e350000
       m_LastClickedID: 0
-      m_ExpandedIDs: fa68feff506afeff286bfeff466cfeffbe6dfeffc26efeffbc6ffeff0271feffb673fefff676feffce77feff2e79feffba7bfeff327cfeffac7cfeffba85feffbc85feffe48bfeffca95feffe89bfeffe2a2feffe4a2feffd6a9feffa4aafeff26bafeff1ec8feffdadbfeffdedcfeff56ddfeff4ae0feff68e0feff2ce2feffa4e2feffeae4feff04e6feff7ce6feff50e8feff18e9feff3ae9feffa0e9feff60ebfeff4cecfeff62ecfeff58edfeff72edfeff86edfeffd2eefeffbeeffeff74f1feff9ef2feffdef3feffaaf4feff76f5feff46f6feffbef6feff7cf7feff4cf8fefffcf8feffa000ffffc600ffff6e0affff940affff9a0bffffb40bfffff20bffff060cffff340dffff460dffff580dffff6c0dffff6a0effff7c0effff900effff4010ffffee10ffff8811ffff3612ffff8213ffffdc16ffffea16ffffea17fffff618ffff021affffbc1affff4a1bffffd81bffff4c1dffffda1dffff681effff941fffff5221ffff6021ffffa424ffff3629ffff762affff102cffff2e2dffff522effff5a2fffff0c30ffffc830ffff7031ffffac37ffffae37ffff4449ffff7c54ffff9889ffffb689ffffc69cffffe49cffffceaaffff26bdffff9ac7ffffc8c7ffff98d8ffffdae7ffff16eaffff18eaffff4aeeffff54eefffff4f0ffff6cf3ffff76f3ffff56f6ffff58f6ffffc8f6ffffb8f9ffffc2f9ffff70fbffff08710000
+      m_ExpandedIDs: 7658ffffd659ffff6c5bffffa25dffff885fffffce60ffff7a62ffff6463ffff0c64ffff5e66ffffac7dffff347effff4285ffff3e89fffffc8affff0a8cffffd68cffffee8fffff4293ffff2098ffff209affffba9affff189dffff309fffff92a2ffff02afffff58b0ffff5ab1ffffd6b2ffff78b4ffffaab5ffffdab6ffffe6b7ffffa0b8ffff68b9ffffc4bbffff5ac7ffff4ccaffffe6cffffff0cfffffaed7ffff16dbffff28deffff90e1fffff0e3ffffdce5fffffae7ffff36eeffff80f3ffff82f3ffff66fbffff70fbffff76760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Main Camera
@@ -70874,7 +69028,7 @@ MonoBehaviour:
           y: 0
           width: 0
           height: 0
-        m_UserData: 36048
+        m_UserData: 30302
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -70910,7 +69064,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 899
+    width: 902
     height: 636
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -70923,9 +69077,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.807627, y: 9.919565, z: 16.67973}
+    m_Target: {x: 54.77, y: 53.64, z: -8.86}
     speed: 2
-    m_Value: {x: 8.807627, y: 9.919565, z: 16.67973}
+    m_Value: {x: 54.77, y: 53.64, z: -8.86}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -70971,20 +69125,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.16751891, y: -0.057086963, z: 0.009830547, w: -0.9842488}
+    m_Target: {x: 0.16169064, y: 0.514913, z: -0.09969257, w: 0.83608013}
     speed: 2
-    m_Value: {x: -0.16750519, y: -0.057082288, z: 0.009829742, w: -0.98416823}
+    m_Value: {x: 0.16167061, y: 0.51484925, z: -0.09968022, w: 0.8359766}
   m_Size:
-    m_Target: 1.7874157
+    m_Target: 8.709839
     speed: 2
-    m_Value: 1.7874157
+    m_Value: 8.709839
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_CameraSettings:
-    m_Speed: 0.9
-    m_SpeedNormalized: 0.47
+    m_Speed: 0.8
+    m_SpeedNormalized: 0.41
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -71025,7 +69179,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 899
+    width: 902
     height: 636
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -71036,7 +69190,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 899, y: 615}
+  m_TargetSize: {x: 902, y: 615}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -71050,8 +69204,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -449.5
-    m_HBaseRangeMax: 449.5
+    m_HBaseRangeMin: -451
+    m_HBaseRangeMax: 451
     m_VBaseRangeMin: -307.5
     m_VBaseRangeMax: 307.5
     m_HAllowExceedBaseRangeMin: 1
@@ -71071,23 +69225,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 899
+      width: 902
       height: 615
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 449.5, y: 307.5}
+    m_Translation: {x: 451, y: 307.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -449.5
+      x: -451
       y: -307.5
-      width: 899
+      width: 902
       height: 615
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 899, y: 636}
+  m_LastWindowPixelSize: {x: 902, y: 636}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

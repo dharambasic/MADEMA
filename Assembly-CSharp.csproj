@@ -55,19 +55,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Donja.cs" />
-     <Compile Include="Assets\Scripts\Donja2.cs" />
-     <Compile Include="Assets\Scripts\Donja3.cs" />
-     <Compile Include="Assets\Scripts\Donja4.cs" />
-     <Compile Include="Assets\Scripts\Donja5.cs" />
-     <Compile Include="Assets\Scripts\Donja6.cs" />
-     <Compile Include="Assets\Scripts\Donja7.cs" />
-     <Compile Include="Assets\Scripts\Donja8.cs" />
-     <Compile Include="Assets\Scripts\Donja9.cs" />
      <Compile Include="Assets\Scripts\Game.cs" />
      <Compile Include="Assets\Scripts\Ignore.cs" />
      <Compile Include="Assets\Scripts\KameraKontroler.cs" />
      <Compile Include="Assets\Scripts\KontrolaIgre.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja2.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja3.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja4.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja5.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja6.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja7.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja8.cs" />
+     <Compile Include="Assets\Scripts\Level\Donja9.cs" />
      <Compile Include="Assets\Scripts\LevelMenager.cs" />
      <Compile Include="Assets\Scripts\Pad.cs" />
  <Reference Include="Unity.Timeline.Editor">
