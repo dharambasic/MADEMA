@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\Level\Donja9.cs" />
      <Compile Include="Assets\Scripts\LevelMenager.cs" />
      <Compile Include="Assets\Scripts\Pad.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Fax/Izrada računalnih igara/MADEMA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

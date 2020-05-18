@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KontrolaIgre : MonoBehaviour
 {
 
     public float Sila = 0;
     public Transform Arrow;
-    public float zScale = 1;
+    public float zScale = 0;
+   
 
     void Start()
     {
@@ -22,13 +24,31 @@ public class KontrolaIgre : MonoBehaviour
         {
             Sila += 50;
             zScale += 1;
-            Arrow.GetComponent<Transform>().localScale = new Vector3(1, 1, zScale);
+
+            if(Sila > 500)
+            {
+                zScale = 5;
+            }
+
+            Arrow.GetComponent<Transform>().localScale = new Vector3(1, zScale, 1);
         }
         else if (Input.GetAxis("Mouse ScrollWheel") < 0f) 
         {
             Sila -= 50;
-            zScale -= 50;
-            Arrow.GetComponent<Transform>().localScale = new Vector3(-1, -1, zScale);
+            zScale -= 1;
+
+          
+            if(zScale > 0)
+            {
+                Arrow.GetComponent<Transform>().localScale = new Vector3(1, zScale, 1);
+            }
+
+            if (zScale < 0)
+            {
+                Arrow.GetComponent<Transform>().localScale = new Vector3(1, zScale, 1);
+                
+
+            }
         }
 
 
@@ -51,7 +71,15 @@ public class KontrolaIgre : MonoBehaviour
     {
         GetComponent<Rigidbody>().AddRelativeForce(0, 0, Sila);
         Arrow.GetComponent<Renderer>().enabled = false;
+        Score.pokusaj += 1;
+        Score.maxPokusaj -= 1;
+        Debug.Log(Score.pokusaj + " " + Score.maxPokusaj);
 
+        if (Score.maxPokusaj == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Score.maxPokusaj = 10;
+        }
         StartCoroutine(Stop());
     }
 
@@ -60,7 +88,7 @@ public class KontrolaIgre : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(.1f);
         GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
         transform.localEulerAngles = new Vector3(0, 0, 0);
         Arrow.GetComponent<Renderer>().enabled = true;
