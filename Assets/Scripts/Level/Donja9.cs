@@ -17,7 +17,7 @@ public class Donja9 : MonoBehaviour
     void Pass()
     {
         LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
-        man.LoadLevel("Level10");
+        man.LoadLevel("Level_10");
         Destroy(gameObject);
 
 

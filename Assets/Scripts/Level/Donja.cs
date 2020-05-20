@@ -9,6 +9,7 @@ public class Donja : MonoBehaviour
         Debug.Log("touch");
 
             Pass();
+        Score.maxPokusaj = 10;
         
     }
 
@@ -18,6 +19,7 @@ public class Donja : MonoBehaviour
     {
         LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
         man.LoadLevel("Level2");
+
         Destroy(gameObject);
         
 

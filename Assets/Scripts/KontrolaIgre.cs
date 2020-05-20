@@ -9,41 +9,45 @@ public class KontrolaIgre : MonoBehaviour
     public float Sila = 0;
     public Transform Arrow;
     public float zScale = 0;
+    public Rigidbody rb;
+   
    
 
     void Start()
     {
-
+        rb = GetComponent<Rigidbody>();
     }
 
 
     void Update()
     {
 
+        
+
+
         if (Input.GetAxis("Mouse ScrollWheel") > 0f) 
         {
-            Sila += 50;
-            zScale += 1;
+            Sila += 150;
+            zScale += 0.5f;
 
-            if(Sila > 500)
-            {
-                zScale = 5;
-            }
+            
 
             Arrow.GetComponent<Transform>().localScale = new Vector3(1, zScale, 1);
         }
         else if (Input.GetAxis("Mouse ScrollWheel") < 0f) 
         {
-            Sila -= 50;
-            zScale -= 1;
+            Sila -= 150;
+            zScale -= 0.5f;
 
-          
-            if(zScale > 0)
+
+        
+
+            if (Sila > 0)
             {
                 Arrow.GetComponent<Transform>().localScale = new Vector3(1, zScale, 1);
             }
 
-            if (zScale < 0)
+            if (Sila < 0)
             {
                 Arrow.GetComponent<Transform>().localScale = new Vector3(1, zScale, 1);
                 
@@ -63,23 +67,42 @@ public class KontrolaIgre : MonoBehaviour
         }
 
 
+        if (Input.GetKey(KeyCode.Escape))
+        {
 
+            LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
+            man.LoadLevel("MainMenuScene");
+
+        }
     }
 
 
     void OnMouseDown()
     {
-        GetComponent<Rigidbody>().AddRelativeForce(0, 0, Sila);
+
+       
+        if(Input.GetMouseButtonDown(0) && rb.velocity == Vector3.zero)
+        {
+            rb.AddRelativeForce(0, 0, Sila);
+            Score.pokusaj += 1;
+            Score.maxPokusaj -= 1;
+        }
+
+        
         Arrow.GetComponent<Renderer>().enabled = false;
-        Score.pokusaj += 1;
-        Score.maxPokusaj -= 1;
+        
         Debug.Log(Score.pokusaj + " " + Score.maxPokusaj);
 
         if (Score.maxPokusaj == 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
+            man.LoadLevel("LoseScene");
             Score.maxPokusaj = 10;
+
+           
         }
+
+        
         StartCoroutine(Stop());
     }
 
