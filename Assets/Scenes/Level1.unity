@@ -480,6 +480,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7100578434414838810, guid: 941e3155ee84fa542b2c667facc7efa1,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 1d4f5a58a681f1448ab789a13f07bb05,
+        type: 2}
+    - target: {fileID: 7100578434467666308, guid: 941e3155ee84fa542b2c667facc7efa1,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 1d4f5a58a681f1448ab789a13f07bb05,
+        type: 2}
     - target: {fileID: 7100578434602827480, guid: 941e3155ee84fa542b2c667facc7efa1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -540,6 +552,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level1
       objectReference: {fileID: 0}
+    - target: {fileID: 7100578434707408274, guid: 941e3155ee84fa542b2c667facc7efa1,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 1d4f5a58a681f1448ab789a13f07bb05,
+        type: 2}
+    - target: {fileID: 7100578435575612635, guid: 941e3155ee84fa542b2c667facc7efa1,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 1d4f5a58a681f1448ab789a13f07bb05,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 941e3155ee84fa542b2c667facc7efa1, type: 3}
 --- !u!1 &1016093327
@@ -670,6 +694,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432116990158948661, guid: b5d3fc6816fdcfa4bb46026241444a28,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432116990158948661, guid: b5d3fc6816fdcfa4bb46026241444a28,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432116990158948661, guid: b5d3fc6816fdcfa4bb46026241444a28,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 5146341279593526271, guid: b5d3fc6816fdcfa4bb46026241444a28,
         type: 3}
