@@ -9,7 +9,7 @@ public class Donja6 : MonoBehaviour
 
 
         Pass();
-        Score.maxPokusaj = 10;
+        Score.maxPokusaj = 20;
     }
 
 

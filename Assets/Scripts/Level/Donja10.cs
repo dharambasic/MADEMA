@@ -9,7 +9,7 @@ public class Donja10 : MonoBehaviour
         Debug.Log("touch");
 
         Pass();
-        Score.maxPokusaj = 10;
+        Score.maxPokusaj = 20;
 
     }
 

@@ -655,22 +655,22 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1534588378}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6708842423954245384, guid: 70f5f6a0c9cc75746a72b5c95d2b1d87,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.7889013
+      value: 11.22
       objectReference: {fileID: 0}
     - target: {fileID: 6708842423954245384, guid: 70f5f6a0c9cc75746a72b5c95d2b1d87,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.23166192
+      value: 0.07332599
       objectReference: {fileID: 0}
     - target: {fileID: 6708842423954245384, guid: 70f5f6a0c9cc75746a72b5c95d2b1d87,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.7807083
+      value: 15.47374
       objectReference: {fileID: 0}
     - target: {fileID: 6708842423954245384, guid: 70f5f6a0c9cc75746a72b5c95d2b1d87,
         type: 3}
@@ -695,7 +695,7 @@ PrefabInstance:
     - target: {fileID: 6708842423954245384, guid: 70f5f6a0c9cc75746a72b5c95d2b1d87,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6708842423954245384, guid: 70f5f6a0c9cc75746a72b5c95d2b1d87,
         type: 3}
@@ -1072,12 +1072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1534588378 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3005346605816939592, guid: abd4b7093c0cd2146908e34525231277,
-    type: 3}
-  m_PrefabInstance: {fileID: 639847747}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1632924380
 PrefabInstance:
   m_ObjectHideFlags: 0
