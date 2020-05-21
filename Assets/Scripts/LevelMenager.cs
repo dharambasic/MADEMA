@@ -16,4 +16,7 @@ public class LevelMenager : MonoBehaviour
         Debug.Log("Gašenje!");
         Application.Quit();
     }
+
+
+ 
 }

@@ -10,20 +10,37 @@ public class KontrolaIgre : MonoBehaviour
     public Transform Arrow;
     public float zScale = 0;
     public Rigidbody rb;
-   
-   
+    public GameObject Canvas;
+    bool Paused = false;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Canvas.gameObject.SetActive(false);
     }
 
 
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (Paused == true)
+            {
+                Time.timeScale = 1.0f;
+                Canvas.gameObject.SetActive(false);
+               
+                Paused = false;
+            }
+            else
+            {
+                Time.timeScale = 0.0f;
+                Canvas.gameObject.SetActive(true);
+              
+                Paused = true;
+            }
+        }
         
-
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0f) 
         {
@@ -67,15 +84,8 @@ public class KontrolaIgre : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.Escape))
-        {
-
-            LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
-            man.LoadLevel("MainMenuScene");
-
-        }
+        
     }
-
 
     void OnMouseDown()
     {
@@ -117,4 +127,10 @@ public class KontrolaIgre : MonoBehaviour
         Arrow.GetComponent<Renderer>().enabled = true;
 
 }
+    public void Resume()
+    {
+        Time.timeScale = 1.0f;
+        Canvas.gameObject.SetActive(false);
+        
+    }
 }
