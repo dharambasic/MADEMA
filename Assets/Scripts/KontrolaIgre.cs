@@ -12,6 +12,7 @@ public class KontrolaIgre : MonoBehaviour
     public Rigidbody rb;
     public GameObject Canvas;
     bool Paused = false;
+    private AudioSource music;
 
 
     void Start()
@@ -96,6 +97,10 @@ public class KontrolaIgre : MonoBehaviour
             rb.AddRelativeForce(0, 0, Sila);
             Score.pokusaj += 1;
             Score.maxPokusaj -= 1;
+            music = GetComponent<AudioSource>();
+            music.loop = false;
+            music.Play();
+            
         }
 
         
@@ -107,7 +112,7 @@ public class KontrolaIgre : MonoBehaviour
         {
             LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
             man.LoadLevel("LoseScene");
-            Score.maxPokusaj = 10;
+            Score.maxPokusaj = 15;
 
            
         }

@@ -24,6 +24,6 @@ public class Restart : MonoBehaviour
 
         Debug.Log("Restart");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Score.maxPokusaj = 10;
+        Score.maxPokusaj = 15;
     }
 }

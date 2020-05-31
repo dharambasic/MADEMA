@@ -7,7 +7,7 @@ public class Score : MonoBehaviour
 {
 
     public static int pokusaj = 0;
-    public static int maxPokusaj = 10;
+    public static int maxPokusaj = 15;
     public Text brojpokusaja;
 
 

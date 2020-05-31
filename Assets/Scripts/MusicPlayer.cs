@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
+    static MusicPlayer instance = null;
+    public AudioClip startClip;
+    public AudioClip gameClip;
+    public AudioClip krajClip;
+    private AudioSource music;
+
     void Start()
     {
-        
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            print("Duplicate music player self-destructing");
+        }
+        else
+        {
+            instance = this;
+            GameObject.DontDestroyOnLoad(gameObject);
+            music = GetComponent<AudioSource>();
+            music.clip = startClip;
+            music.loop = true;
+            music.Play();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }
