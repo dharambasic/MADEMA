@@ -13,56 +13,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-05-31T20:12:37.912+02:00
-  initializedAtString: 2020-05-31T18:36:14.231+02:00
+  lastUpdatedAtString: 2020-06-07T21:59:06.662+02:00
+  initializedAtString: 2020-06-07T21:13:45.256+02:00
   entries:
-  - path: Assets\Materials\Materials.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Materials\\Materials.meta"
-    projectPath: Assets\Materials\Materials.meta
+  - path: .vs\MADEMA\v16\.suo
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\.vs\\MADEMA\\v16\\.suo"
+    projectPath: .vs\MADEMA\v16\.suo
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Materials\unnamed.mat
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Materials\\Materials\\unnamed.mat"
-    projectPath: Assets\Materials\Materials\unnamed.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Materials\unnamed.mat.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Materials\\Materials\\unnamed.mat.meta"
-    projectPath: Assets\Materials\Materials\unnamed.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\New Material.mat
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Materials\New Material 1.mat
     fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Materials\\New
-      Material.mat"
-    projectPath: Assets\Materials\New Material.mat
+      Material 1.mat"
+    projectPath: Assets\Materials\New Material 1.mat
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Materials\New Material.mat.meta
+  - path: Assets\Materials\New Material 1.mat.meta
     fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Materials\\New
-      Material.mat.meta"
-    projectPath: Assets\Materials\New Material.mat.meta
+      Material 1.mat.meta"
+    projectPath: Assets\Materials\New Material 1.mat.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefabs\CanvasLose.prefab
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\CanvasLose.prefab"
-    projectPath: Assets\Prefabs\CanvasLose.prefab
+  - path: Assets\Prefabs\EventSystem.prefab
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\EventSystem.prefab"
+    projectPath: Assets\Prefabs\EventSystem.prefab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefabs\CanvasLose.prefab.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\CanvasLose.prefab.meta"
-    projectPath: Assets\Prefabs\CanvasLose.prefab.meta
+  - path: Assets\Prefabs\EventSystem.prefab.meta
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\EventSystem.prefab.meta"
+    projectPath: Assets\Prefabs\EventSystem.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scenes\Instructions.unity
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\Instructions.unity"
-    projectPath: Assets\Scenes\Instructions.unity
+  - path: Assets\Prefabs\Particle System.prefab
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Particle
+      System.prefab"
+    projectPath: Assets\Prefabs\Particle System.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Particle System.prefab.meta
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Particle
+      System.prefab.meta"
+    projectPath: Assets\Prefabs\Particle System.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Quad.prefab
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Quad.prefab"
+    projectPath: Assets\Prefabs\Quad.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Quad.prefab.meta
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Prefabs\\Quad.prefab.meta"
+    projectPath: Assets\Prefabs\Quad.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Level_10.unity
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\Level_10.unity"
+    projectPath: Assets\Scenes\Level_10.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -120,207 +134,69 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\LoseScene.unity
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\LoseScene.unity"
-    projectPath: Assets\Scenes\LoseScene.unity
+  - path: Library\ArtifactDB
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ArtifactDB"
+    projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\WinScene.unity
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Scenes\\WinScene.unity"
-    projectPath: Assets\Scenes\WinScene.unity
+  - path: Library\Artifacts\10\10edf956fcfc6ab769c028959858530c
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\10\\10edf956fcfc6ab769c028959858530c"
+    projectPath: Library\Artifacts\10\10edf956fcfc6ab769c028959858530c
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Texture\Materials.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\Materials.meta"
-    projectPath: Assets\Texture\Materials.meta
+    workTreeStatus: 5
+  - path: Library\Artifacts\29\2966b8fdcc650fbfbb1299ebe23f2f4b
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\29\\2966b8fdcc650fbfbb1299ebe23f2f4b"
+    projectPath: Library\Artifacts\29\2966b8fdcc650fbfbb1299ebe23f2f4b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3e\3e9d09b2bfbf25b72127f2b1e1b43ad9
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\3e\\3e9d09b2bfbf25b72127f2b1e1b43ad9"
+    projectPath: Library\Artifacts\3e\3e9d09b2bfbf25b72127f2b1e1b43ad9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\42\42bfe991209b6ed6b08add4117699289
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\42\\42bfe991209b6ed6b08add4117699289"
+    projectPath: Library\Artifacts\42\42bfe991209b6ed6b08add4117699289
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Texture\Materials\tilable-IMG_0044-verydark.mat
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\Materials\\tilable-IMG_0044-verydark.mat"
-    projectPath: Assets\Texture\Materials\tilable-IMG_0044-verydark.mat
+  - path: Library\Artifacts\63\6350e501a241ec1dd77c657ea29da2a5
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\63\\6350e501a241ec1dd77c657ea29da2a5"
+    projectPath: Library\Artifacts\63\6350e501a241ec1dd77c657ea29da2a5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\6c\6cc01c59328b603257b1fe83d8bcce03
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\6c\\6cc01c59328b603257b1fe83d8bcce03"
+    projectPath: Library\Artifacts\6c\6cc01c59328b603257b1fe83d8bcce03
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Texture\Materials\tilable-IMG_0044-verydark.mat.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\Materials\\tilable-IMG_0044-verydark.mat.meta"
-    projectPath: Assets\Texture\Materials\tilable-IMG_0044-verydark.mat.meta
+  - path: Library\Artifacts\96\96df9eb9c790cf41c3d73ccc0e8810da
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\96\\96df9eb9c790cf41c3d73ccc0e8810da"
+    projectPath: Library\Artifacts\96\96df9eb9c790cf41c3d73ccc0e8810da
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\97\97a299fb372e47e9c227c5170ddef7bf
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\97\\97a299fb372e47e9c227c5170ddef7bf"
+    projectPath: Library\Artifacts\97\97a299fb372e47e9c227c5170ddef7bf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044.png
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044.png"
-    projectPath: Assets\Texture\tilable-IMG_0044.png
+  - path: Library\Artifacts\9c\9c9a18e658655e2bc7a67ed33e7aafd5
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\9c\\9c9a18e658655e2bc7a67ed33e7aafd5"
+    projectPath: Library\Artifacts\9c\9c9a18e658655e2bc7a67ed33e7aafd5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044.png.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044.png.meta"
-    projectPath: Assets\Texture\tilable-IMG_0044.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044_nm.png
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044_nm.png"
-    projectPath: Assets\Texture\tilable-IMG_0044_nm.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044_nm.png.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044_nm.png.meta"
-    projectPath: Assets\Texture\tilable-IMG_0044_nm.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-dark.png
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-dark.png"
-    projectPath: Assets\Texture\tilable-IMG_0044-dark.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-dark.png.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-dark.png.meta"
-    projectPath: Assets\Texture\tilable-IMG_0044-dark.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-grey.png
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-grey.png"
-    projectPath: Assets\Texture\tilable-IMG_0044-grey.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-grey.png.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-grey.png.meta"
-    projectPath: Assets\Texture\tilable-IMG_0044-grey.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-grey1.png
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-grey1.png"
-    projectPath: Assets\Texture\tilable-IMG_0044-grey1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-grey1.png.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-grey1.png.meta"
-    projectPath: Assets\Texture\tilable-IMG_0044-grey1.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-lush.png
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-lush.png"
-    projectPath: Assets\Texture\tilable-IMG_0044-lush.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-lush.png.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-lush.png.meta"
-    projectPath: Assets\Texture\tilable-IMG_0044-lush.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-verydark.png
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-verydark.png"
-    projectPath: Assets\Texture\tilable-IMG_0044-verydark.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Texture\tilable-IMG_0044-verydark.png.meta
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Assets\\Texture\\tilable-IMG_0044-verydark.png.meta"
-    projectPath: Assets\Texture\tilable-IMG_0044-verydark.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\12\12c8d7a76f2e327c1b765cd59fada859
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\12\\12c8d7a76f2e327c1b765cd59fada859"
-    projectPath: Library\Artifacts\12\12c8d7a76f2e327c1b765cd59fada859
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\15\151862acad3dbfa5f36371a9aabd99d8
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\15\\151862acad3dbfa5f36371a9aabd99d8"
-    projectPath: Library\Artifacts\15\151862acad3dbfa5f36371a9aabd99d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\25\25a94a8eaafdab1ebbd4cdc10c507600
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\25\\25a94a8eaafdab1ebbd4cdc10c507600"
-    projectPath: Library\Artifacts\25\25a94a8eaafdab1ebbd4cdc10c507600
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\35\352ceee4b79567b74d040f7b9e13de9b
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\35\\352ceee4b79567b74d040f7b9e13de9b"
-    projectPath: Library\Artifacts\35\352ceee4b79567b74d040f7b9e13de9b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4d\4d1a4841f370b04f72fa1b5924ac9a12
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\4d\\4d1a4841f370b04f72fa1b5924ac9a12"
-    projectPath: Library\Artifacts\4d\4d1a4841f370b04f72fa1b5924ac9a12
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\57\577cdc260b3ee9693312201d053337fd
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\57\\577cdc260b3ee9693312201d053337fd"
-    projectPath: Library\Artifacts\57\577cdc260b3ee9693312201d053337fd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\58\58dc602882211bef5d93a19908fbb4d1
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\58\\58dc602882211bef5d93a19908fbb4d1"
-    projectPath: Library\Artifacts\58\58dc602882211bef5d93a19908fbb4d1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\68\68417eb64bd6982cbb35c5656156b0f4
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\68\\68417eb64bd6982cbb35c5656156b0f4"
-    projectPath: Library\Artifacts\68\68417eb64bd6982cbb35c5656156b0f4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6d\6d29e25f86ca266c01d00fe8cedfb8d4
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\6d\\6d29e25f86ca266c01d00fe8cedfb8d4"
-    projectPath: Library\Artifacts\6d\6d29e25f86ca266c01d00fe8cedfb8d4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\82\82a50d5de5d1925ccae4caef6dc5c8d0
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\82\\82a50d5de5d1925ccae4caef6dc5c8d0"
-    projectPath: Library\Artifacts\82\82a50d5de5d1925ccae4caef6dc5c8d0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\83\838e53ec3926dc572965c7884a067137
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\83\\838e53ec3926dc572965c7884a067137"
-    projectPath: Library\Artifacts\83\838e53ec3926dc572965c7884a067137
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\83\83f8979a71a9465f08c74b718f6e3da7
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\83\\83f8979a71a9465f08c74b718f6e3da7"
-    projectPath: Library\Artifacts\83\83f8979a71a9465f08c74b718f6e3da7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9c\9c344a146d8c78b5777163858d45fe9b
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\9c\\9c344a146d8c78b5777163858d45fe9b"
-    projectPath: Library\Artifacts\9c\9c344a146d8c78b5777163858d45fe9b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c4\c4b614067000a4d1ce9438652bd854c2
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\c4\\c4b614067000a4d1ce9438652bd854c2"
-    projectPath: Library\Artifacts\c4\c4b614067000a4d1ce9438652bd854c2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d5\d58a5f6c290a133bb4ec1025e336e2ae
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\d5\\d58a5f6c290a133bb4ec1025e336e2ae"
-    projectPath: Library\Artifacts\d5\d58a5f6c290a133bb4ec1025e336e2ae
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d4\d4339a7a907cd116185651443ea57621
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\d4\\d4339a7a907cd116185651443ea57621"
+    projectPath: Library\Artifacts\d4\d4339a7a907cd116185651443ea57621
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -328,26 +204,20 @@ MonoBehaviour:
     fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\da\\da7ccb70ca7bbf33d66f5916f8bf0926"
     projectPath: Library\Artifacts\da\da7ccb70ca7bbf33d66f5916f8bf0926
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\db\db4f128532a38949133523a60facafe4
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\db\\db4f128532a38949133523a60facafe4"
-    projectPath: Library\Artifacts\db\db4f128532a38949133523a60facafe4
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\CurrentLayout-default.dwlt"
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f7\f7c3dccb87fe3bce1546fba2b4a43e36
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\f7\\f7c3dccb87fe3bce1546fba2b4a43e36"
-    projectPath: Library\Artifacts\f7\f7c3dccb87fe3bce1546fba2b4a43e36
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorInstance.json
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\EditorInstance.json"
+    projectPath: Library\EditorInstance.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fd\fdcd2eef070d9f0f7694532eabb6e93c
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\Artifacts\\fd\\fdcd2eef070d9f0f7694532eabb6e93c"
-    projectPath: Library\Artifacts\fd\fdcd2eef070d9f0f7694532eabb6e93c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\branches.yaml"
     projectPath: Library\gfu\cache\branches.yaml
@@ -384,69 +254,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\1\12a9081b53641a601a0f62d535883013.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\1\\12a9081b53641a601a0f62d535883013.bin"
-    projectPath: Library\ShaderCache\1\12a9081b53641a601a0f62d535883013.bin
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\InspectorExpandedItems.asset"
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\2\245a9e7a88bbd7a542f25f856fad268e.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\2\\245a9e7a88bbd7a542f25f856fad268e.bin"
-    projectPath: Library\ShaderCache\2\245a9e7a88bbd7a542f25f856fad268e.bin
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\LastSceneManagerSetup.txt"
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\3\31cb2bc119bd71f143aba9d087cfb27c.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\3\\31cb2bc119bd71f143aba9d087cfb27c.bin"
-    projectPath: Library\ShaderCache\3\31cb2bc119bd71f143aba9d087cfb27c.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\7\7d9989c363820d999d03822501687cde.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\7\\7d9989c363820d999d03822501687cde.bin"
-    projectPath: Library\ShaderCache\7\7d9989c363820d999d03822501687cde.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\9\9b111aec7a65f981f03008ca4b72de2d.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\9\\9b111aec7a65f981f03008ca4b72de2d.bin"
-    projectPath: Library\ShaderCache\9\9b111aec7a65f981f03008ca4b72de2d.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\b\beb5b4d63d0041b9810210e432746a87.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\b\\beb5b4d63d0041b9810210e432746a87.bin"
-    projectPath: Library\ShaderCache\b\beb5b4d63d0041b9810210e432746a87.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\c\cb3813f3d6b1912985e94f034efe26fb.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\c\\cb3813f3d6b1912985e94f034efe26fb.bin"
-    projectPath: Library\ShaderCache\c\cb3813f3d6b1912985e94f034efe26fb.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\d\d522e7b438fb6425215e95e8e1992684.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\d\\d522e7b438fb6425215e95e8e1992684.bin"
-    projectPath: Library\ShaderCache\d\d522e7b438fb6425215e95e8e1992684.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\d\df6dd5fedf6f59294b30751d4009e521.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\d\\df6dd5fedf6f59294b30751d4009e521.bin"
-    projectPath: Library\ShaderCache\d\df6dd5fedf6f59294b30751d4009e521.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\e\e58462f87456f7eab2cb218652e8db8e.bin
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\e\\e58462f87456f7eab2cb218652e8db8e.bin"
-    projectPath: Library\ShaderCache\e\e58462f87456f7eab2cb218652e8db8e.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ShaderCache\\EditorEncounteredVariants"
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -478,14 +300,14 @@ MonoBehaviour:
     fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe5.log"
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
     fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe6.log"
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SourceAssetDB
     fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\SourceAssetDB"
     projectPath: Library\SourceAssetDB
@@ -513,30 +335,6 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityLockfile"
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc"
-    projectPath: Temp\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24"
-    projectPath: Temp\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-59fe928f8afa44d4c80d6180a945c689
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-59fe928f8afa44d4c80d6180a945c689"
-    projectPath: Temp\UnityTempFile-59fe928f8afa44d4c80d6180a945c689
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39
-    fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39"
-    projectPath: Temp\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
