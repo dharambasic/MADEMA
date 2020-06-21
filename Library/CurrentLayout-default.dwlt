@@ -41,7 +41,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 676
-    width: 996
+    width: 1059
     height: 271
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -70,12 +70,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 996
+    width: 1059
     height: 947
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 34
+  controlID: 143
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,12 +91,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 996
+    x: 1059
     y: 0
-    width: 351
+    width: 288
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -124,10 +124,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 531, y: 492}
-  m_MaxSize: {x: 18001, y: 14042}
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 152
+  controlID: 260
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -147,14 +147,14 @@ MonoBehaviour:
     y: 0
     width: 573
     height: 947
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 11}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 11}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,7 +239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 996
+    width: 1059
     height: 676
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -275,13 +275,13 @@ MonoBehaviour:
     width: 572
     height: 926
   m_ViewDataDictionary: {fileID: 0}
-  progressMessageClearTime: -1
+  progressMessageClearTime: 53.4986044
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
+  repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
@@ -467,12 +467,71 @@ MonoBehaviour:
         values: []
       folders:
         keys:
+        - .vs
+        - .vs\MADEMA
+        - .vs\MADEMA\v16
         - Library
         - Library\gfu
         - Library\gfu\cache
+        - Library\StateCache
+        - Library\StateCache\Hierarchy
+        - Library\StateCache\SceneView
         - Temp
-        - Temp\__Backupscenes
         values:
+        - path: .vs
+          label: .vs
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .vs\MADEMA
+          label: MADEMA
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .vs\MADEMA\v16
+          label: v16
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: Library
           label: Library
           level: 0
@@ -527,9 +586,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Temp
-          label: Temp
-          level: 0
+        - path: Library\StateCache
+          label: StateCache
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -545,9 +604,45 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Temp\__Backupscenes
-          label: __Backupscenes
-          level: 1
+        - path: Library\StateCache\Hierarchy
+          label: Hierarchy
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Library\StateCache\SceneView
+          label: SceneView
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Temp
+          label: Temp
+          level: 0
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -591,6 +686,78 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: .vs
+        label: .vs
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vs\MADEMA
+        label: MADEMA
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vs\MADEMA\v16
+        label: v16
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vs\MADEMA\v16\.suo
+        label: .suo
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\MADEMA\v16\.suo
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\.vs\\MADEMA\\v16\\.suo"
+          projectPath: .vs\MADEMA\v16\.suo
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Library
         label: Library
         level: 0
@@ -609,6 +776,60 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Library\ArtifactDB
+        label: ArtifactDB
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ArtifactDB
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ArtifactDB"
+          projectPath: Library\ArtifactDB
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library\CurrentLayout-default.dwlt
+        label: CurrentLayout-default.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\CurrentLayout-default.dwlt
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\CurrentLayout-default.dwlt"
+          projectPath: Library\CurrentLayout-default.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library\EditorInstance.json
+        label: EditorInstance.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\EditorInstance.json
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\EditorInstance.json"
+          projectPath: Library\EditorInstance.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Library\gfu
         label: gfu
         level: 1
@@ -663,6 +884,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: Library\gfu\cache\gitlocks.yaml
+        label: gitlocks.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gitlocks.yaml
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlocks.yaml"
+          projectPath: Library\gfu\cache\gitlocks.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library\gfu\cache\gitlog.yaml
+        label: gitlog.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gitlog.yaml
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlog.yaml"
+          projectPath: Library\gfu\cache\gitlog.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Library\gfu\cache\gitstatusentries.yaml
         label: gitstatusentries.yaml
         level: 3
@@ -680,7 +937,7 @@ MonoBehaviour:
           projectPath: Library\gfu\cache\gitstatusentries.yaml
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 5
+          workTreeStatus: 3
       - path: Library\gfu\cache\gittrackingstatus.yaml
         label: gittrackingstatus.yaml
         level: 3
@@ -699,9 +956,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-        label: shadercompiler-UnityShaderCompiler.exe1.log
-        level: 1
+      - path: Library\gfu\cache\repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -711,14 +968,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe1.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+          path: Library\gfu\cache\repoinfo.yaml
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\repoinfo.yaml"
+          projectPath: Library\gfu\cache\repoinfo.yaml
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-        label: shadercompiler-UnityShaderCompiler.exe2.log
+      - path: Library\LastSceneManagerSetup.txt
+        label: LastSceneManagerSetup.txt
         level: 1
         isFolder: 0
         isContainer: 0
@@ -729,14 +986,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe2.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+          path: Library\LastSceneManagerSetup.txt
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\LastSceneManagerSetup.txt"
+          projectPath: Library\LastSceneManagerSetup.txt
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-        label: shadercompiler-UnityShaderCompiler.exe3.log
+      - path: Library\SourceAssetDB
+        label: SourceAssetDB
         level: 1
         isFolder: 0
         isContainer: 0
@@ -747,15 +1004,51 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe3.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+          path: Library\SourceAssetDB
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\SourceAssetDB"
+          projectPath: Library\SourceAssetDB
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-        label: shadercompiler-UnityShaderCompiler.exe4.log
+      - path: Library\StateCache
+        label: StateCache
         level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Library\StateCache\Hierarchy
+        label: Hierarchy
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Library\StateCache\Hierarchy\42a804-mainStage.json
+        label: 42a804-mainStage.json
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -765,16 +1058,16 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe4.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+          path: Library\StateCache\Hierarchy\42a804-mainStage.json
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\Hierarchy\\42a804-mainStage.json"
+          projectPath: Library\StateCache\Hierarchy\42a804-mainStage.json
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
-        label: shadercompiler-UnityShaderCompiler.exe5.log
-        level: 1
-        isFolder: 0
+      - path: Library\StateCache\SceneView
+        label: SceneView
+        level: 2
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -783,15 +1076,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe5.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe5.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
-        label: shadercompiler-UnityShaderCompiler.exe6.log
-        level: 1
+          workTreeStatus: 0
+      - path: Library\StateCache\SceneView\d2fbf0-mainStage.json
+        label: d2fbf0-mainStage.json
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -801,9 +1094,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe6.log
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe6.log"
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+          path: Library\StateCache\SceneView\d2fbf0-mainStage.json
+          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\SceneView\\d2fbf0-mainStage.json"
+          projectPath: Library\StateCache\SceneView\d2fbf0-mainStage.json
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -825,42 +1118,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Temp\__Backupscenes
-        label: __Backupscenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Temp\__Backupscenes\0.backup
-        label: 0.backup
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\__Backupscenes\0.backup
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\__Backupscenes\\0.backup"
-          projectPath: Temp\__Backupscenes\0.backup
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Temp\UnityLockfile
         label: UnityLockfile
         level: 1
@@ -876,78 +1133,6 @@ MonoBehaviour:
           path: Temp\UnityLockfile
           fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityLockfile"
           projectPath: Temp\UnityLockfile
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Temp\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc
-        label: UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc"
-          projectPath: Temp\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Temp\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24
-        label: UnityTempFile-54e145a307cc97141a00fb56e7ae9b24
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24"
-          projectPath: Temp\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Temp\UnityTempFile-59fe928f8afa44d4c80d6180a945c689
-        label: UnityTempFile-59fe928f8afa44d4c80d6180a945c689
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-59fe928f8afa44d4c80d6180a945c689
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-59fe928f8afa44d4c80d6180a945c689"
-          projectPath: Temp\UnityTempFile-59fe928f8afa44d4c80d6180a945c689
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Temp\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39
-        label: UnityTempFile-b2a9c9810941beb4da737e3823d1eb39
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39
-          fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39"
-          projectPath: Temp\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -971,9 +1156,45 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
+    - path: .vs\MADEMA\v16\.suo
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\.vs\\MADEMA\\v16\\.suo"
+      projectPath: .vs\MADEMA\v16\.suo
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library\ArtifactDB
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\ArtifactDB"
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\CurrentLayout-default.dwlt"
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library\EditorInstance.json
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\EditorInstance.json"
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Library\gfu\cache\branches.yaml
       fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\branches.yaml"
       projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -982,94 +1203,58 @@ MonoBehaviour:
       projectPath: Library\gfu\cache\gitstatusentries.yaml
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
+      workTreeStatus: 3
     - path: Library\gfu\cache\gittrackingstatus.yaml
       fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\gittrackingstatus.yaml"
       projectPath: Library\gfu\cache\gittrackingstatus.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe1.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe2.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\LastSceneManagerSetup.txt"
+      projectPath: Library\LastSceneManagerSetup.txt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe3.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    - path: Library\SourceAssetDB
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\SourceAssetDB"
+      projectPath: Library\SourceAssetDB
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe4.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    - path: Library\StateCache\Hierarchy\42a804-mainStage.json
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\Hierarchy\\42a804-mainStage.json"
+      projectPath: Library\StateCache\Hierarchy\42a804-mainStage.json
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe5.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    - path: Library\StateCache\SceneView\d2fbf0-mainStage.json
+      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\StateCache\\SceneView\\d2fbf0-mainStage.json"
+      projectPath: Library\StateCache\SceneView\d2fbf0-mainStage.json
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Library\\shadercompiler-UnityShaderCompiler.exe6.log"
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Temp\__Backupscenes\0.backup
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\__Backupscenes\\0.backup"
-      projectPath: Temp\__Backupscenes\0.backup
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: Temp\UnityLockfile
       fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityLockfile"
       projectPath: Temp\UnityLockfile
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Temp\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc"
-      projectPath: Temp\UnityTempFile-02b07d4a6146b1641acdcd271e2b12cc
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Temp\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24"
-      projectPath: Temp\UnityTempFile-54e145a307cc97141a00fb56e7ae9b24
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Temp\UnityTempFile-59fe928f8afa44d4c80d6180a945c689
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-59fe928f8afa44d4c80d6180a945c689"
-      projectPath: Temp\UnityTempFile-59fe928f8afa44d4c80d6180a945c689
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Temp\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39
-      fullPath: "C:\\Fax\\Izrada ra\u010Dunalnih igara\\MADEMA\\Temp\\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39"
-      projectPath: Temp\UnityTempFile-b2a9c9810941beb4da737e3823d1eb39
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     changedFilesText: 15 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-05-31T20:13:33.531+02:00
+      updatedTimeString: 2020-06-17T08:52:53.691+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-05-31T20:13:03.759+02:00
+      updatedTimeString: 2020-06-17T08:52:55.956+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-05-31T20:12:37.901+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -67711,13 +67896,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2020-05-31T20:13:33.531+02:00
+    updatedTimeString: 2020-06-17T08:52:53.691+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2020-05-31T20:13:31.934+02:00
+    updatedTimeString: 2020-06-17T08:52:56.001+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-05-31T20:13:03.759+02:00
+    updatedTimeString: 2020-06-17T08:52:55.956+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -67736,7 +67921,7 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
   repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressMessage: Fetching...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -67790,7 +67975,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 749
-    width: 995
+    width: 1058
     height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -67817,23 +68002,23 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 46}
-    m_SelectedIDs: 8e360000
-    m_LastClickedID: 13966
-    m_ExpandedIDs: 0000000060360000fe48000000ca9a3b
+    m_SelectedIDs: 56360000
+    m_LastClickedID: 13910
+    m_ExpandedIDs: 000000002c36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Plugins
-      m_OriginalName: Plugins
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 13954
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -67847,7 +68032,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000060360000
+    m_ExpandedIDs: 000000002c360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -67939,7 +68124,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 14358
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -67962,31 +68147,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 996
+    x: 1059
     y: 73
-    width: 349
+    width: 286
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 043effff5a41ffff704dffff7e4dffffd251ffff3652ffff4e60ffffa069ffffcc6fffff6474ffffa874ffff9678ffffbc7cffff0c7efffff07effffc08effff409effffaea1ffff5ea2ffff00a3ffffe6a3ffff82a4ffff92a8ffff5aacffff7cacffffb4adffffe2adfffff8b2ffff0eb3ffff96b4ffffdab6ffff4cb7ffff94b8ffffd2bbffffd8bbffffe4bfffff94c4ffff30c8ffff0ccdffffbacdffffc6cdffff62d0ffffccd3ffff1ad6ffff24daffff28e2ffff32e3ffff20e4ffff70fbffff9473000036750000d27500005a7800007c7900008a7a0000
+      m_SelectedIDs: 203c0000
+      m_LastClickedID: 15392
+      m_ExpandedIDs: ecf6ffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Player
-        m_OriginalName: Player
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 31100
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -68019,7 +68204,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 995
+    width: 1058
     height: 655
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -68032,9 +68217,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 54.687, y: 55.093002, z: -10.376}
+    m_Target: {x: 22.086681, y: 0.4533064, z: 10.33138}
     speed: 2
-    m_Value: {x: 54.687, y: 55.093002, z: -10.376}
+    m_Value: {x: 22.086681, y: 0.4533064, z: 10.33138}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -68080,20 +68265,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.119717814, y: 0.009578697, z: -0.0010822885, w: -0.9928495}
+    m_Target: {x: -0.05345251, y: 0.9363445, z: -0.16157615, w: -0.30746424}
     speed: 2
-    m_Value: {x: -0.11970555, y: 0.011066989, z: -0.0012617531, w: -0.99274695}
+    m_Value: {x: -0.053906996, y: 0.9359891, z: -0.16296105, w: -0.30734697}
   m_Size:
-    m_Target: 598.4236
+    m_Target: 3.7698698
     speed: 2
-    m_Value: 572.6542
+    m_Value: 3.6075308
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_CameraSettings:
-    m_Speed: 0.8
-    m_SpeedNormalized: 0.38
+    m_Speed: 0.7
+    m_SpeedNormalized: 0.35
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -68161,8 +68346,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -497.5
     m_HBaseRangeMax: 497.5
-    m_VBaseRangeMin: -317
-    m_VBaseRangeMax: 317
+    m_VBaseRangeMin: -327.5
+    m_VBaseRangeMax: 327.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -68179,11 +68364,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 995
-      height: 634
+      height: 655
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 497.5, y: 317}
+    m_Translation: {x: 497.5, y: 327.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -68191,9 +68376,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -497.5
-      y: -317
+      y: -327.5
       width: 995
-      height: 634
+      height: 655
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 995, y: 655}
